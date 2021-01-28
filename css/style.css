@@ -134,6 +134,7 @@ header {
 
 .link-ad:hover {
 	background: #eaeaea;
+	box-shadow: 0px 0px 3px rgba(152, 119, 0, 0.8);
 	transition: background 0.2s ease-in-out;
 	-webkit-transition: background 0.2s ease-in-out;
   	-moz-transition: background 0.2s ease-in-out;
@@ -219,18 +220,29 @@ header {
 	padding: 30px 40px 50px 40px;
 	background: #fff;
 }
-
+									/*------filler nav------*/
 .filler-nav {
-	display: block;
+	display: flex;
 }
 
-.filler-nav .filler-nav-item {
-	display: inline-block;
+.filler-nav .filler-nav-item:link,
+.filler-nav-item:visited {
+	display: flex;
 	width: 31.95%;
 	height: 86px;
+	padding: 0 0 0 30px;
+	align-items: center;
 
-	background: linear-gradient(90deg, #FFD338 0%, #FFDA57 47.92%, #FDBE1E 100%);
+	background: linear-gradient(90deg, #FFD338 0%, #FFDA57 50%, #FDBE1E 100%);
 	box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.25);
+}
+
+.filler-nav-item:active .filler-nav-img{
+	margin-top: 5px;
+}
+
+.filler-nav-item:active .filler-nav-p{
+	margin-top: 5px;
 }
 
 .filler-nav .filler-nav-item:first-child {
@@ -241,8 +253,22 @@ header {
 	margin-left: 20px;
 }
 
+.filler-nav-img {
+	width: 54px;
+	height: 54px;
+}
+
+.filler-nav-p {
+	margin: 0;
+	font-size: 22px;
+	margin-left: 10px;
+}
+									/*-----delivery promotion-----*/
+.delivery-categories-wrapper {
+	display: flex;
+}
+
 .delivery-promotion {
-	display: inline-block;
 	width: 265px;
 	height: 515px;
 	margin-top: 30px;
@@ -250,14 +276,32 @@ header {
 	border: 2px solid #FFDA57;
 	box-sizing: border-box;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+	padding-bottom: 30px;
+}	
 
+.delivery-promotion-p {
+	width: 100%;
+	font-size: 24px;
+	background: #FFDA57;
+	text-align: center;
+	margin: 12px 0;
 }
 
+.delivery-promotion-p:first-child {
+	margin-top: 50px;
+}
+
+.delivery-promotion-img {
+	width: 100%;
+	bottom: 0;
+	margin-top: 30px;
+}
+									/*-----categories nav-----*/
 .categories-nav {
-	width: 899.5px;
-	margin-left: 14px;
+	width: 900px;
+	margin-left: 20px;
 	height: 515px;
-	display: inline-block;
+	margin-top: 30px;
 }
 
 .categories-nav-item {
@@ -267,6 +311,28 @@ header {
 	margin-bottom: 23px;
 
 	background: linear-gradient(90deg, #FDC021 0%, #FFD955 49.65%);
+}
+
+.categories-nav-img {
+	height: 112px;
+	filter: drop-shadow(2px 0px 4px rgba(0, 0, 0, 0.25));
+}
+
+.categories-nav-nav {
+	float: right;
+	width: 65%;
+	padding: 26px 0;
+}
+
+.categories-nav-nav p {
+	margin: 5px 0;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.categories-nav-link:hover,
+.categories-nav-link:active {
+	text-decoration: underline;
 }
 /*------------------------------------------footer-------------------------------------------------*/
 footer {

@@ -4,6 +4,7 @@
 	<title>TakeMeHome - главная</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 </head>
 <body>
 	<header>
@@ -55,16 +56,84 @@
 		</div>
 		<div class="shop-nav">
 			<div class="filler-nav">
-				<div class="filler-nav-item"></div>
-				<div class="filler-nav-item"></div>
-				<div class="filler-nav-item"></div>
+				<a href="" class="filler-nav-item">
+					<img src="images/price-tag.png" class="filler-nav-img">
+					<p class="filler-nav-p">СКИДКИ И АКЦИИ</p>
+				</a>
+				<a href="" class="filler-nav-item">
+					<img src="images/price-tag.png" class="filler-nav-img">
+					<p class="filler-nav-p">ПОПУЛЯРНЫЕ ТОВАРЫ</p>
+				</a>
+				<a href="" class="filler-nav-item">
+					<img src="images/price-tag.png" class="filler-nav-img">
+					<p class="filler-nav-p">ВАКАНСИИ</p>
+				</a>
 			</div>
-			<div class="delivery-promotion"></div>
-			<div class="categories-nav">
-				<div class="categories-nav-item"></div>
-				<div class="categories-nav-item"></div>
-				<div class="categories-nav-item"></div>
-				<div class="categories-nav-item"></div>
+			<div class="delivery-categories-wrapper">
+				<div class="delivery-promotion">
+					<p class="delivery-promotion-p">БЕСПЛАТНАЯ</p>
+					<p class="delivery-promotion-p">ДОСТАВКА</p>
+					<p class="delivery-promotion-p">ПО ВСЕЙ</p>
+					<p class="delivery-promotion-p">АЛМАТЕ</p>
+					<img src="images/truck.png" alt="" class="delivery-promotion-img">
+				</div>
+				<div class="categories-nav">
+					<div class="categories-nav-item">
+						<img src="images/dog-cat-cut.png" alt="" class="categories-nav-img">
+						<div class="categories-nav-nav">
+							<p>ТОВАРЫ ДЛЯ ДОМАШНИХ ЖИВОТНЫХ</p>
+							<p>
+								<a href="" class="categories-nav-link">Корм</a> | 
+								<a href="" class="categories-nav-link">Игрушки</a> | 
+								<a href="" class="categories-nav-link">Гигиена</a> | 
+								<a href="" class="categories-nav-link">Уход</a> | 
+								<a href="" class="categories-nav-link">Прочее</a> | 
+								<a href="" class="categories-nav-link">Все товары</a>
+							</p>
+						</div>
+					</div>
+					<div class="categories-nav-item">
+						<img src="images/fishes-cut.png" alt="" class="categories-nav-img">
+						<div class="categories-nav-nav">
+							<p>ТОВАРЫ ДЛЯ РЫБ</p>
+							<p>
+								<a href="" class="categories-nav-link">Корм</a> | 
+								<a href="" class="categories-nav-link">Аквариумы</a> | 
+								<a href="" class="categories-nav-link">Украшения</a> | 
+								<a href="" class="categories-nav-link">Прочее</a> | 
+								<a href="" class="categories-nav-link">Все товары</a>
+							</p>
+						</div>
+					</div>
+					<div class="categories-nav-item">
+						<img src="images/hamsters-cut.png" alt="" class="categories-nav-img">
+						<div class="categories-nav-nav">
+							<p>ТОВАРЫ ДЛЯ ГРЫЗУНОВ</p>
+							<p>
+								<a href="" class="categories-nav-link">Корм</a> |&nbsp;
+								<a href="" class="categories-nav-link">Клетки</a> | 
+								<a href="" class="categories-nav-link">Игрушки</a> | 
+								<a href="" class="categories-nav-link">Уход</a> | 
+								<a href="" class="categories-nav-link">Прочее</a> | 
+								<a href="" class="categories-nav-link">Все товары</a>
+							</p>
+						</div>
+					</div>
+					<div class="categories-nav-item">
+						<img src="images/parrots-cut.png" alt="" class="categories-nav-img">
+						<div class="categories-nav-nav">
+							<p>ТОВАРЫ ДЛЯ ПТИЦ</p>
+							<p>
+								<a href="" class="categories-nav-link">Корм</a> |&nbsp;
+								<a href="" class="categories-nav-link">Клетки</a> | 
+								<a href="" class="categories-nav-link">Игрушки</a> | 
+								<a href="" class="categories-nav-link">Уход</a> | 
+								<a href="" class="categories-nav-link">Прочее</a> | 
+								<a href="" class="categories-nav-link">Все товары</a>
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</main>
