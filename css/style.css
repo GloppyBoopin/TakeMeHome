@@ -3,19 +3,28 @@ html {
 	font-weight: 600;
 	font-style: normal;
 	color: #000;
-	background: #FFF;
+	background: #FBFBFB;
+	background: url('/DIPLOMA/images/background-3.jpg');
 }
 
 body {
 	width: 1263px;
 	margin: 0 auto;
-	background: #FFF;
+	background: #F9F9F9;
 }
 
 a:link,
 a:visited {
 	text-decoration: none;
 	color: #000;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
 }
 /*-----------------------------------------header-------------------------------------------------*/
 header {

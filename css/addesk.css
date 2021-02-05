@@ -140,3 +140,45 @@
 	height: 15px;
 	margin-left: 3px;
 }
+
+.addesk-items {
+	padding: 20px 80px;
+	background: repeating-linear-gradient(
+	  to bottom,
+	  #F9F9F9,
+	  #F9F9F9 153px,
+	  #FFD439 153px,
+	  #FFD439 204px,
+	  #F9F9F9 204px,
+	  #F9F9F9 275px,
+	  #FFD439 275px,
+	  #FFD439 326px
+	);
+}
+
+.addesk-item {
+	display: inline-block;
+	width: 509px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 70px;
+	height: 257px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+	background: #fff;
+	border: none;
+	border-radius: 3px;
+
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition : all 0.2s ease-in-out;
+}
+
+.addesk-item-link:hover .addesk-item,
+.addesk-item-link:active .addesk-item {
+	border-radius: 10px;
+	background: #FFFCF3;
+	border: 3px solid #F2B61B;
+	box-sizing: border-box;
+}
+

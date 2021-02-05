@@ -21,11 +21,6 @@
 				+7(777)221-66-66
 			</div>
 			<div class="header-nav-form-link-ad">
-				<!-- search form -->
-				<!-- <form>  
-					<input class="search" type="text" name="">
-					<button class="search-button"><i class="fa fa-search"></i></button>
-				</form> -->
 			</div>
 		</div>
 		<a href="" class="link-ad-addesk">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
@@ -70,6 +65,95 @@
 				</a>
 			</div>
 		</div>
+	</div>
+	<div class="addesk-items">
+		<a href="" class="addesk-item-link">
+			<div class="addesk-item">
+				<div class="left" style="overflow: hidden;">
+					<img src="" class="addesk-item-image">
+				</div>
+				<div class="addesk-item-info right">
+					<p class="addesk-item-category"></p>
+					<p class="addesk-item-description"></p>
+					<div class="addesk-item-bottom">
+						<div class="addesk-item-date-price left"></div>
+						<form method="" action="">
+							<button class="addesk-item-favorite right"></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</a>
+
+		<a href="" class="addesk-item-link">
+			<div class="addesk-item">
+				<div class="left" style="overflow: hidden;">
+					<img src="" class="addesk-item-image">
+				</div>
+				<div class="addesk-item-info right">
+					<p class="addesk-item-category"></p>
+					<p class="addesk-item-description"></p>
+					<div class="addesk-item-bottom">
+						<div class="addesk-item-date-price left"></div>
+						<form method="" action="">
+							<button class="addesk-item-favorite right"></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</a>
+
+		<a href="" class="addesk-item-link">
+			<div class="addesk-item">
+				<div class="left" style="overflow: hidden;">
+					<img src="" class="addesk-item-image">
+				</div>
+				<div class="addesk-item-info right">
+					<p class="addesk-item-category"></p>
+					<p class="addesk-item-description"></p>
+					<div class="addesk-item-bottom">
+						<div class="addesk-item-date-price left"></div>
+						<form method="" action="">
+							<button class="addesk-item-favorite right"></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="" class="addesk-item-link">
+			<div class="addesk-item">
+				<div class="left" style="overflow: hidden;">
+					<img src="" class="addesk-item-image">
+				</div>
+				<div class="addesk-item-info right">
+					<p class="addesk-item-category"></p>
+					<p class="addesk-item-description"></p>
+					<div class="addesk-item-bottom">
+						<div class="addesk-item-date-price left"></div>
+						<form method="" action="">
+							<button class="addesk-item-favorite right"></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="" class="addesk-item-link">
+			<div class="addesk-item">
+				<div class="left" style="overflow: hidden;">
+					<img src="" class="addesk-item-image">
+				</div>
+				<div class="addesk-item-info right">
+					<p class="addesk-item-category"></p>
+					<p class="addesk-item-description"></p>
+					<div class="addesk-item-bottom">
+						<div class="addesk-item-date-price left"></div>
+						<form method="" action="">
+							<button class="addesk-item-favorite right"></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</a>
 	</div>
 </main>
 </html>
