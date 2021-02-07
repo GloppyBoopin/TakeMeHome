@@ -69,86 +69,22 @@
 	<div class="addesk-items">
 		<a href="" class="addesk-item-link">
 			<div class="addesk-item">
-				<div class="left" style="overflow: hidden;">
-					<img src="" class="addesk-item-image">
+				<div class="addesk-item-image-wrapper left" style="">
+					<img src="images/dog.png" alt="Фотография" class="addesk-item-image"> <!-- Если нет фотографий можно поставить филлер -->
 				</div>
 				<div class="addesk-item-info right">
-					<p class="addesk-item-category"></p>
-					<p class="addesk-item-description"></p>
+					<p class="addesk-item-head">Догич, 16 лет, пьяный</p> <!-- Порода, пол, возраст (если есть) -->
+					<p class="addesk-item-category">Собаки</p> <!-- Категория и подкатегория, если есть (Собаки, лабрадор) -->
+					<p class="addesk-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolor id distinctio voluptates laborum natus tempora ratione. Recusandae sit animi facilis ipsa architecto non praesentium autem provident tempora, ducimus quis.</p> <!-- Описание -->
+					<p class="addesk-item-phone">Тел: +7 (800) 555-35-35</p> <!-- Номер телефона (если есть) -->
 					<div class="addesk-item-bottom">
-						<div class="addesk-item-date-price left"></div>
+						<div class="addesk-item-date-price left">
+						<!-- Дата добавления и цена, если нет цены то "Даром" --> 
+							<p class="addesk-item-date">26.11.2020 14:23</p> 
+							<p class="addesk-item-price">ДАРОМ</p>
+						</div> 
 						<form method="" action="">
-							<button class="addesk-item-favorite right"></button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</a>
-
-		<a href="" class="addesk-item-link">
-			<div class="addesk-item">
-				<div class="left" style="overflow: hidden;">
-					<img src="" class="addesk-item-image">
-				</div>
-				<div class="addesk-item-info right">
-					<p class="addesk-item-category"></p>
-					<p class="addesk-item-description"></p>
-					<div class="addesk-item-bottom">
-						<div class="addesk-item-date-price left"></div>
-						<form method="" action="">
-							<button class="addesk-item-favorite right"></button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</a>
-
-		<a href="" class="addesk-item-link">
-			<div class="addesk-item">
-				<div class="left" style="overflow: hidden;">
-					<img src="" class="addesk-item-image">
-				</div>
-				<div class="addesk-item-info right">
-					<p class="addesk-item-category"></p>
-					<p class="addesk-item-description"></p>
-					<div class="addesk-item-bottom">
-						<div class="addesk-item-date-price left"></div>
-						<form method="" action="">
-							<button class="addesk-item-favorite right"></button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</a>
-		<a href="" class="addesk-item-link">
-			<div class="addesk-item">
-				<div class="left" style="overflow: hidden;">
-					<img src="" class="addesk-item-image">
-				</div>
-				<div class="addesk-item-info right">
-					<p class="addesk-item-category"></p>
-					<p class="addesk-item-description"></p>
-					<div class="addesk-item-bottom">
-						<div class="addesk-item-date-price left"></div>
-						<form method="" action="">
-							<button class="addesk-item-favorite right"></button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</a>
-		<a href="" class="addesk-item-link">
-			<div class="addesk-item">
-				<div class="left" style="overflow: hidden;">
-					<img src="" class="addesk-item-image">
-				</div>
-				<div class="addesk-item-info right">
-					<p class="addesk-item-category"></p>
-					<p class="addesk-item-description"></p>
-					<div class="addesk-item-bottom">
-						<div class="addesk-item-date-price left"></div>
-						<form method="" action="">
-							<button class="addesk-item-favorite right"></button>
+							<button class="addesk-item-favorite right">Запомнить</button> <!-- добавить в избранное -->
 						</form>
 					</div>
 				</div>
@@ -156,4 +92,5 @@
 		</a>
 	</div>
 </main>
+<footer></footer>
 </html>
