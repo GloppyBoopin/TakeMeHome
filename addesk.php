@@ -25,7 +25,6 @@
 		</div>
 		<a href="" class="link-ad-addesk">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
 	</header>
-</body>
 <main>
 	<div class="search-wrapper">
 		<form>  
@@ -93,4 +92,5 @@
 	</div>
 </main>
 <footer></footer>
+</body>
 </html>
