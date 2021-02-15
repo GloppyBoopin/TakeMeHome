@@ -122,6 +122,10 @@
   	-o-transition : background 0.2s ease-in-out;
 }
 
+.new-shop-item:last-child {
+	margin-right: 0;
+}
+
 .new-shop-item:hover,
 .new-shop-item:active {
 	background: #eaeaea;
@@ -131,8 +135,19 @@
   	-o-transition : background 0.2s ease-in-out;	
 }
 
-.new-shop-item:last-child {
-	margin-right: 0;
+.new-shop-item:hover .new-shop-item-hidden,
+.new-shop-item:active .new-shop-item-hidden{
+	display: block;
+}
+
+.new-shop-item:hover .new-shop-item-image,
+.new-shop-item:active .new-shop-item-image{
+	bottom: -100px;
+}
+
+.new-shop-item:hover .new-shop-item-shadow,
+.new-shop-item:active  .new-shop-item-shadow {
+
 }
 
 .new-shop-item-image {
@@ -143,7 +158,27 @@
     left: -100%;
     right: -100%;
 	margin: auto;
-	height: 230px;
-	min-width: 80%;
+	min-width: 100%;
 	min-height: 80%;
+	max-width: 300px;
+	max-height: 260px;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition : all 0.2s ease-in-out;
+}
+
+.new-shop-item-shadow {
+	display: none;
+	width: 100%;
+	height: 
+}
+
+.new-shop-item-hidden {
+	display: none;
+	width: 100%;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition : all 0.2s ease-in-out;
 }
