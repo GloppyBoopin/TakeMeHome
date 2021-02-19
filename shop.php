@@ -38,8 +38,9 @@
 		<div class="new-shop-items-container">
 				<!-- shop link -->
 				<a href="" class="new-shop-item">
-					<img src="images/fishes-cut.png" class="new-shop-item-image">
-					<div class="new-shop-item-shadow"></div>
+					<div class="new-shop-item-image-wrapper">
+						<img src="images/fishes-cut.png" class="new-shop-item-image">
+					</div>
 					<div class="new-shop-item-hidden">
 						<p class="new-shop-item-name">niggrs</p>
 						<p class="new-shop-item-description">niggrs</p>
@@ -47,19 +48,33 @@
 				</a>
 				<!-- free ads link -->
 				<a href="" class="new-shop-item">
-					<img src="images/dog.png" class="new-shop-item-image">
-<!-- 					<p class="site-nav-p">ДАРОМ</p>
- -->				</a>
-				<!-- ads link -->
+					<div class="new-shop-item-image-wrapper">
+						<img src="images/fishes-cut.png" class="new-shop-item-image">
+					</div>
+					<div class="new-shop-item-hidden">
+						<p class="new-shop-item-name">niggrs</p>
+						<p class="new-shop-item-description">niggrs</p>
+					</div>
+				</a>
 				<a href="" class="new-shop-item">
-					<img src="images/dog.png" class="new-shop-item-image">
-<!-- 					<p class="site-nav-p">ПРОДАЖА</p>
- -->				</a>
+					<div class="new-shop-item-image-wrapper">
+						<img src="images/cat.png" class="new-shop-item-image">
+					</div>
+					<div class="new-shop-item-hidden">
+						<p class="new-shop-item-name">niggrs</p>
+						<p class="new-shop-item-description">niggrs</p>
+					</div>
+				</a>
 				<!-- lost and found link -->
 				<a href="" class="new-shop-item">
-					<img src="images/dog.png" class="new-shop-item-image">
-<!-- 					<p class="site-nav-p" style="margin: 5px -25px;">БЮРО НАХОДОК</p>
- -->				</a>
+					<div class="new-shop-item-image-wrapper">
+						<img src="images/dog.png" class="new-shop-item-image">
+					</div>
+					<div class="new-shop-item-hidden">
+						<p class="new-shop-item-name">niggrs</p>
+						<p class="new-shop-item-description">niggrs</p>
+					</div>
+				</a>
 			</div>
 	</div>
 </main>
