@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="dark">
 <head>
 	<title>TakeMeHome - главная</title>
+	<link rel="stylesheet" type="text/css" href="css/variables.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
+	
 </head>
 <body>
 	<header>
@@ -27,6 +30,11 @@
 				</form>
 				<a href="" class="link-ad">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
 			</div>
+			<div class="theme-switch-wrapper">
+			    <input type="checkbox" id="theme-switch" name="theme" />
+			    <label for="theme-switch">Toggle</label>
+			</div>
+			<script type="text/javascript" src="js/theme-switch.js"></script>
 		</div>
 	</header>
 	<main>

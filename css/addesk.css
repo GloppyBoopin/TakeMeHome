@@ -32,7 +32,7 @@
 	width: 100%;
 	height: 110px;
 	margin-top: 60px;
-	background: #FFDA57;
+	background: #FFD642;
 }
 
 .search-wrapper form {
@@ -147,12 +147,12 @@
 	  to bottom,
 	  #F9F9F9,
 	  #F9F9F9 153px,
-	  #FFD439 153px,
-	  #FFD439 204px,
+	  #FFD642 153px,
+	  #FFD642 204px,
 	  #F9F9F9 204px,
 	  #F9F9F9 275px,
-	  #FFD439 275px,
-	  #FFD439 326px
+	  #FFD642 275px,
+	  #FFD642 326px
 	);
 }
 

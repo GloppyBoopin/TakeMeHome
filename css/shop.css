@@ -238,17 +238,71 @@
 .shop-item {
 	display: inline-block;
 	position: relative;
+	background: white;
 	width: 325px;
 	height: 348px;
 	padding: 6px 0;
 	margin: 0 20px 20px 20px;
 	box-shadow: 2px 2px 4px rgba(12, 12, 12, 0.25);
+/*	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);*/
 	border-radius: 10px;
 
 	transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition : all 0.2s ease-in-out;
+}
+
+.shop-item:hover,
+.shop-item:active {
+	border-radius: 10px;
+	background: #FFFCF3;
+	/*border: 3px solid #F2B61B;*/
+	/*box-sizing: border-box;*/
+	box-shadow: inset 0 0 0 3px #FFD600;
+}
+
+.link-span {
+	position:absolute; 
+	width:100%;
+	height:100%;
+	top:0;
+	left: 0;
+
+	z-index: 1;
+}
+
+.shop-item-read-link {
+	display: none;
+	background: #FFD600;
+	position: absolute;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	width: 200px;
+	padding: 10px;
+	z-index: 2;
+	top: 150px;
+	left: 52px;
+
+	transition: background 0.2s ease-in-out;
+	-webkit-transition: background 0.2s ease-in-out;
+  	-moz-transition: background 0.2s ease-in-out;
+  	-o-transition : background 0.2s ease-in-out;
+}
+
+.shop-item-read-link:hover,
+.shop-item-read-link:active {
+	background: #d8b131;
+}
+
+.shop-item:hover .shop-item-read-link,
+.shop-item:active .shop-item-read-link {
+	display: block;
 }
 
 .shop-item-image-container {
@@ -281,7 +335,110 @@
 .shop-item-form-price-container {
 	position: absolute;
 	height: 30px;
-	width: 100%;
+	padding: 0 10px;
+	width: 94%;
 	bottom: 15px;
-	background: #aaa
+}
+
+.shop-item-price {
+	margin: 6px;
+}
+
+input[type=number] {
+	-webkit-appearance: textfield;
+    -moz-appearance: textfield;
+ 	appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
+
+.input-number-wrapper {
+	display: inline-block;
+	margin-bottom: 2px;
+}
+
+.plus-minus-button {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	bottom: 3px;
+	border: 1px solid black;
+	width: 24px;
+	height: 26px;
+	background: white;
+	font-size: 18px;
+	z-index: 2;
+
+	transition: background 0.2s ease-in-out;
+	-webkit-transition: background 0.2s ease-in-out;
+  	-moz-transition: background 0.2s ease-in-out;
+  	-o-transition : background 0.2s ease-in-out;
+}
+
+.plus-minus-button:focus {
+	outline: none;
+}
+
+.plus-minus-button:hover,
+.plus-minus-button:active {
+	background: #EAEAEA
+}
+
+.input-number {
+	position: absolute;
+	right: 34px;
+	bottom: 3px;
+	border: 1px solid black;
+	border-left: none;
+	border-right: none;
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	height: 24px;
+	width: 30px;
+	text-align: center;
+	z-index: 2;
+}
+
+.input-number:focus {
+	outline: none;
+}
+
+.minus-button {
+	border-right: none;
+	right: 64px;
+}
+
+.plus-button {
+	border-left: none;
+	right: 10px;
+}
+
+.shop-item-cart-button{
+	position: absolute;
+	right: 94px;
+	bottom: 2px;
+	background: #FFD439;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 600;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	width: 140px;
+	padding: 4px;
+	z-index: 2;
+
+	transition: background 0.2s ease-in-out;
+	-webkit-transition: background 0.2s ease-in-out;
+  	-moz-transition: background 0.2s ease-in-out;
+  	-o-transition : background 0.2s ease-in-out;
+}
+
+.shop-item-cart-button:hover,
+.shop-item-cart-button:active {
+	background: #d8b131;
 }

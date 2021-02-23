@@ -1,0 +1,20 @@
+:root {
+	--main-color: #FFD642;
+	--background: #F9F9F9;
+	--border-yellow: #FFDA57;
+	--text-color: #000;
+	--text-color-secondary: #F9F9F9;
+	--white-gray-switch: #FFF;
+	--link-hover-main: #EAEAEA;
+	--link-hover-secondary: #d8b131;
+}
+
+[data-theme="dark"] {
+	--main-color: #333;
+	--background: #e5bd3b;
+	--text-color: #F9F9F9;
+	--text-color-secondary: #000;
+	--white-gray-switch: #333;
+	--link-hover-main: #bf9a2b;
+	--link-hover-secondary: #EAEAEA;
+};

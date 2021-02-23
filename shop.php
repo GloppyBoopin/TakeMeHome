@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/shop.css">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 </head>
 <body>
@@ -28,6 +28,7 @@
 <main>
 	<p class="search-description"></p>
 	<div class="search-wrapper">
+		<!-- Поиск по товарам -->
 		<form>  
 			<input class="search" type="text" name="">
 			<button class="search-button"><i class="fa fa-search"></i></button>
@@ -80,23 +81,60 @@
 	<div class="shop-items">
 		<div class="shop-items-filter"></div>
 		<div class="shop-items-container">
+			<!-- shop-item в цикл -->
 			<div class="shop-item">
+				<!-- Ссылка на страницу товара -->
+				<a href="">
+					<span class="link-span"></span>
+				</a>
+				<!-- Тоже ссылка на страницу товара -->
+				<a class="shop-item-read-link" href="">
+					ПОДРОБНЕЕ
+				</a>
 				<div class="shop-item-image-container">
+					<!-- Сюда картинку и название -->
 					<img src="images/parrots-cut.png" class="shop-item-image">
-					<p class="shop-item-image-name">Niggers</p>
+					<p class="shop-item-image-name">Nigg</p>
 				</div>
-				<div class="shop-item-form-price-container"></div>
-			</div>
-			<div class="shop-item">
-				<div class="shop-item-image-container">
-					<img src="images/hamsters-cut.png" class="shop-item-image">
-					<p class="shop-item-image-name"></p>
+				<div class="shop-item-form-price-container">
+					<!-- Цена и добавление в корзину с количеством -->
+					<p class="shop-item-price left">80 000 т</p>
+					<form class="shop-item-form right">
+						<button type="submit" class="shop-item-cart-button">Добавить в <i class="fa fa-shopping-basket"></i></button>
+						<div class="input-number-wrapper">
+							<button type="button" onclick="this.parentNode.querySelector('.input-number').stepDown()" class="plus-minus-button minus-button">-</button>
+							<input class="input-number" type="number" min="1" value="1" max="10" name="">
+							<button type="button" onclick="this.parentNode.querySelector('.input-number').stepUp()" class="plus-minus-button plus-button">+</button>
+						</div>
+					</form>
 				</div>
 			</div>
+
 			<div class="shop-item">
+				<!-- Ссылка на страницу товара -->
+				<a href="">
+					<span class="link-span"></span>
+				</a>
+				<!-- Тоже ссылка на страницу товара -->
+				<a class="shop-item-read-link" href="">
+					ПОДРОБНЕЕ
+				</a>
 				<div class="shop-item-image-container">
-					<img src="images/cat.png" class="shop-item-image">
-					<p class="shop-item-image-name">awd</p>
+					<!-- Сюда картинку и название -->
+					<img src="images/parrots-cut.png" class="shop-item-image">
+					<p class="shop-item-image-name">Nigg</p>
+				</div>
+				<div class="shop-item-form-price-container">
+					<!-- Цена и добавление в корзину с количеством -->
+					<p class="shop-item-price left">80 000 т</p>
+					<form class="shop-item-form right">
+						<button type="submit" class="shop-item-cart-button">Добавить в <i class="fa fa-shopping-basket"></i></button>
+						<div class="input-number-wrapper">
+							<button type="button" onclick="this.parentNode.querySelector('.input-number').stepDown()" class="plus-minus-button minus-button">-</button>
+							<input class="input-number" type="number" min="1" value="1" max="10" name="">
+							<button type="button" onclick="this.parentNode.querySelector('.input-number').stepUp()" class="plus-minus-button plus-button">+</button>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
