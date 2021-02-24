@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>TakeMeHome - магазин</title>
+	<link rel="stylesheet" type="text/css" href="css/variables.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/shop.css">
 
@@ -22,6 +23,12 @@
 			</div>
 			<div class="header-nav-form-link-ad">
 			</div>
+			<div class="theme-switch-wrapper">
+			    <input type="checkbox" id="theme-switch" name="theme" />
+			    <label for="theme-switch"></label>
+			    <p>Сменить тему</p>
+			</div>
+			<script type="text/javascript" src="js/theme-switch.js"></script>
 		</div>
 		<a href="" class="link-ad-addesk">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
 	</header>
@@ -140,5 +147,6 @@
 		</div>
 	</div>
 </main>
+<footer></footer>
 </body>
 </html>

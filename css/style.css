@@ -104,6 +104,8 @@ header {
 .search {
 	width: 435px;
 	height: 35px;
+	font-size: 18px;
+	font-weight: 600;
 	padding-left: 15px;
 	background: var(--background)/*#FFFFFF*/;
 	border: 1px solid var(--border-yellow)/*#FFD642*/;
@@ -197,6 +199,7 @@ header {
 	text-indent: -9999px;
 	width: 50px;
 	height: 25px;
+	margin-left: 30px;
 	background: var(--background);
 	float: right;
 	border-radius: 100px;
@@ -222,6 +225,10 @@ header {
 .theme-switch-wrapper input:checked + label:after {
 	left: calc(100% - 5px);
 	transform: translateX(-100%);
+}
+
+.theme-switch-wrapper p {
+	margin-top: 5px;	
 }
 
 /*------------------------------------------slider------------------------------------------------*/

@@ -32,7 +32,8 @@
 			</div>
 			<div class="theme-switch-wrapper">
 			    <input type="checkbox" id="theme-switch" name="theme" />
-			    <label for="theme-switch">Toggle</label>
+			    <label for="theme-switch"></label>
+			    <p>Сменить тему</p>
 			</div>
 			<script type="text/javascript" src="js/theme-switch.js"></script>
 		</div>

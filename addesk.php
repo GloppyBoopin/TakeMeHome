@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>TakeMeHome - объявления</title>
+	<link rel="stylesheet" type="text/css" href="css/variables.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/addesk.css">
 
@@ -22,6 +23,12 @@
 			</div>
 			<div class="header-nav-form-link-ad">
 			</div>
+			<div class="theme-switch-wrapper">
+			    <input type="checkbox" id="theme-switch" name="theme" />
+			    <label for="theme-switch"></label>
+			    <p>Сменить тему</p>
+			</div>
+			<script type="text/javascript" src="js/theme-switch.js"></script>
 		</div>
 		<a href="" class="link-ad-addesk">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
 	</header>
@@ -84,7 +91,76 @@
 							<p class="addesk-item-price">ДАРОМ</p>
 						</div> 
 						<form method="" action="">
-							<button class="addesk-item-favorite right">Запомнить</button> <!-- добавить в избранное -->
+							<button class="addesk-item-favorite right">В избранное</button> <!-- добавить в избранное -->
+						</form>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="" class="addesk-item-link">
+			<div class="addesk-item">
+				<div class="addesk-item-image-wrapper left" style="">
+					<img src="images/dog.png" alt="Фотография" class="addesk-item-image"> <!-- Если нет фотографий можно поставить филлер -->
+				</div>
+				<div class="addesk-item-info right">
+					<p class="addesk-item-head">Догич, 16 лет, пьяный</p> <!-- Порода, пол, возраст (если есть) -->
+					<p class="addesk-item-category">Собаки</p> <!-- Категория и подкатегория, если есть (Собаки, лабрадор) -->
+					<p class="addesk-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolor id distinctio voluptates laborum natus tempora ratione. Recusandae sit animi facilis ipsa architecto non praesentium autem provident tempora, ducimus quis.</p> <!-- Описание -->
+					<p class="addesk-item-phone">Тел: +7 (800) 555-35-35</p> <!-- Номер телефона (если есть) -->
+					<div class="addesk-item-bottom">
+						<div class="addesk-item-date-price left">
+						<!-- Дата добавления и цена, если нет цены то "Даром" --> 
+							<p class="addesk-item-date">26.11.2020 14:23</p> 
+							<p class="addesk-item-price">ДАРОМ</p>
+						</div> 
+						<form method="" action="">
+							<button class="addesk-item-favorite right">В избранное</button> <!-- добавить в избранное -->
+						</form>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="" class="addesk-item-link">
+			<div class="addesk-item">
+				<div class="addesk-item-image-wrapper left" style="">
+					<img src="images/dog.png" alt="Фотография" class="addesk-item-image"> <!-- Если нет фотографий можно поставить филлер -->
+				</div>
+				<div class="addesk-item-info right">
+					<p class="addesk-item-head">Догич, 16 лет, пьяный</p> <!-- Порода, пол, возраст (если есть) -->
+					<p class="addesk-item-category">Собаки</p> <!-- Категория и подкатегория, если есть (Собаки, лабрадор) -->
+					<p class="addesk-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolor id distinctio voluptates laborum natus tempora ratione. Recusandae sit animi facilis ipsa architecto non praesentium autem provident tempora, ducimus quis.</p> <!-- Описание -->
+					<p class="addesk-item-phone">Тел: +7 (800) 555-35-35</p> <!-- Номер телефона (если есть) -->
+					<div class="addesk-item-bottom">
+						<div class="addesk-item-date-price left">
+						<!-- Дата добавления и цена, если нет цены то "Даром" --> 
+							<p class="addesk-item-date">26.11.2020 14:23</p> 
+							<p class="addesk-item-price">ДАРОМ</p>
+						</div> 
+						<form method="" action="">
+							<button class="addesk-item-favorite right">В избранное</button> <!-- добавить в избранное -->
+						</form>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="" class="addesk-item-link">
+			<div class="addesk-item">
+				<div class="addesk-item-image-wrapper left" style="">
+					<img src="images/dog.png" alt="Фотография" class="addesk-item-image"> <!-- Если нет фотографий можно поставить филлер -->
+				</div>
+				<div class="addesk-item-info right">
+					<p class="addesk-item-head">Догич, 16 лет, пьяный</p> <!-- Порода, пол, возраст (если есть) -->
+					<p class="addesk-item-category">Собаки</p> <!-- Категория и подкатегория, если есть (Собаки, лабрадор) -->
+					<p class="addesk-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolor id distinctio voluptates laborum natus tempora ratione. Recusandae sit animi facilis ipsa architecto non praesentium autem provident tempora, ducimus quis.</p> <!-- Описание -->
+					<p class="addesk-item-phone">Тел: +7 (800) 555-35-35</p> <!-- Номер телефона (если есть) -->
+					<div class="addesk-item-bottom">
+						<div class="addesk-item-date-price left">
+						<!-- Дата добавления и цена, если нет цены то "Даром" --> 
+							<p class="addesk-item-date">26.11.2020 14:23</p> 
+							<p class="addesk-item-price">ДАРОМ</p>
+						</div> 
+						<form method="" action="">
+							<button class="addesk-item-favorite right">В избранное</button> <!-- добавить в избранное -->
 						</form>
 					</div>
 				</div>
