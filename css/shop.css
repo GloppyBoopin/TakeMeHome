@@ -331,7 +331,7 @@ html[data-theme="dark"] .shop-item {
 
 .shop-item-read-link:hover,
 .shop-item-read-link:active {
-	background: var(--link-hover-main);
+	background: var(--link-hover-secondary);
 }
 
 .shop-item:hover .shop-item-read-link,
@@ -474,5 +474,5 @@ input[type=number]::-webkit-outer-spin-button {
 
 .shop-item-cart-button:hover,
 .shop-item-cart-button:active {
-	background: var(--link-hover-main);
+	background: var(--link-hover-secondary);
 }

@@ -328,5 +328,5 @@ html[data-theme="dark"] .addesk-item-image {
 
 .addesk-item-favorite:hover,
 .addesk-item-favorite:active {
-	background: var(--link-hover-main);
+	background: var(--link-hover-secondary);
 }
