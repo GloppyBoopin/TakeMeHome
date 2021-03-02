@@ -29,8 +29,24 @@
 			    <p>Сменить тему</p>
 			</div>
 			<script type="text/javascript" src="js/theme-switch.js"></script>
+			<div class="header-nav-icons-wrapper">
+				<a href="" class="header-nav-icon-link">
+					<i class="header-nav-icon far fa-heart"></i>
+					<p>Избранное</p>
+				</a>
+				<a href="" class="header-nav-icon-link">
+					<i class="header-nav-icon far fa-user"></i>
+					<p>Профиль</p>
+				</a>
+				<a href="" class="header-nav-icon-link">
+					<i class="header-nav-icon fas fa-shopping-basket"></i>
+					<p>Корзина</p>
+					<p class="shopping-bag-item-count">1</p> <!-- Отображать если в корзине есть товары -->
+				</a>
+			</div>
 		</div>
 		<a href="" class="link-ad-addesk">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
+
 	</header>
 <main>
 	<div class="search-wrapper">
@@ -88,10 +104,10 @@
 						<div class="addesk-item-date-price left">
 						<!-- Дата добавления и цена, если нет цены то "Даром" --> 
 							<p class="addesk-item-date">26.11.2020 14:23</p> 
-							<p class="addesk-item-price">ДАРОМ</p>
+							<p class="addesk-item-price">300 000 т</p>
 						</div> 
 						<form method="" action="">
-							<button class="addesk-item-favorite right">В избранное</button> <!-- добавить в избранное -->
+							<button class="addesk-item-favorite right">В избранное <i class="far fa-heart"></i></button> <!-- добавить в избранное -->
 						</form>
 					</div>
 				</div>
@@ -114,7 +130,7 @@
 							<p class="addesk-item-price">ДАРОМ</p>
 						</div> 
 						<form method="" action="">
-							<button class="addesk-item-favorite right">В избранное</button> <!-- добавить в избранное -->
+							<button class="addesk-item-favorite right">В избранное <i class="far fa-heart"></i></button> <!-- добавить в избранное -->
 						</form>
 					</div>
 				</div>
@@ -137,7 +153,7 @@
 							<p class="addesk-item-price">ДАРОМ</p>
 						</div> 
 						<form method="" action="">
-							<button class="addesk-item-favorite right">В избранное</button> <!-- добавить в избранное -->
+							<button class="addesk-item-favorite right">В избранное <i class="far fa-heart"></i></button> <!-- добавить в избранное -->
 						</form>
 					</div>
 				</div>
@@ -160,7 +176,7 @@
 							<p class="addesk-item-price">ДАРОМ</p>
 						</div> 
 						<form method="" action="">
-							<button class="addesk-item-favorite right">В избранное</button> <!-- добавить в избранное -->
+							<button class="addesk-item-favorite right">В избранное <i class="far fa-heart"></i></button> <!-- добавить в избранное -->
 						</form>
 					</div>
 				</div>

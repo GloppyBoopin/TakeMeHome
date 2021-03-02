@@ -183,6 +183,7 @@ header {
 .theme-switch-wrapper {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	margin-left: 10px;
 	padding-top: 4px;
 }
@@ -199,7 +200,7 @@ header {
 	text-indent: -9999px;
 	width: 50px;
 	height: 25px;
-	margin-left: 30px;
+	/*margin-left: 30px;*/
 	background: var(--background);
 	float: right;
 	border-radius: 100px;
@@ -228,7 +229,55 @@ header {
 }
 
 .theme-switch-wrapper p {
-	margin-top: 5px;	
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.header-nav-icons-wrapper {
+	display: flex;
+	margin-left: auto;
+}
+
+.header-nav-icon-link:link,
+.header-nav-icon-link:visited {
+	position: relative;
+	height: 55px;
+	width: 86px;
+	text-align: center;
+	transition: color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out;
+  	-moz-transition: color 0.2s ease-in-out;
+  	-o-transition : color 0.2s ease-in-out;
+}
+
+.header-nav-icon-link:hover,
+.header-nav-icon-link:active {
+
+}
+
+.header-nav-icon {
+	font-size: 24px;
+	padding: 4px 20px 1px 20px;
+}
+
+.header-nav-icon-link p {
+	font-size: 14px;
+	margin: 0;
+	padding-top: 5px;
+}
+
+.shopping-bag-item-count {
+	position: absolute;
+	top: -2px;
+	right: 20px;
+	color: #F9F9F9;
+	background: red;
+	padding: 0 1px 2px 1px !important;
+	margin-top: 5px !important;
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+	border-radius: 20px;
 }
 
 /*------------------------------------------slider------------------------------------------------*/

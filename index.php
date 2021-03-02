@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 
-	
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 </head>
 <body>
 	<header>
@@ -36,6 +36,21 @@
 			    <p>Сменить тему</p>
 			</div>
 			<script type="text/javascript" src="js/theme-switch.js"></script>
+			<div class="header-nav-icons-wrapper">
+				<a href="" class="header-nav-icon-link">
+					<i class="header-nav-icon far fa-heart"></i>
+					<p>Избранное</p>
+				</a>
+				<a href="" class="header-nav-icon-link">
+					<i class="header-nav-icon far fa-user"></i>
+					<p>Профиль</p>
+				</a>
+				<a href="" class="header-nav-icon-link">
+					<i class="header-nav-icon fas fa-shopping-basket"></i>
+					<p>Корзина</p>
+					<p class="shopping-bag-item-count">1</p> <!-- Отображать если в корзине есть товары -->
+				</a>
+			</div>
 		</div>
 	</header>
 	<main>
