@@ -134,3 +134,121 @@ select,
 .form-input-select:after {
 	grid-area: select;
 }
+
+input[type="checkbox"] {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	color: #000;
+	background: var(--white-gray-switch);
+	border: 2px solid var(--border-yellow);
+	margin-top: 7px;
+	border-radius: 5px;
+	margin-left: 0;
+	appearance: none;
+	outline: 0;
+	cursor: pointer;
+	transition: background 0.2s ease-in-out;
+}
+
+input[type="checkbox"]:hover {
+    background: var(--item-hover-main);
+}
+
+input[type="checkbox"]:before {
+	position: absolute;
+    content: '';
+    display: block;
+    top: 2px;
+    left: 8px;
+    width: 8px;
+    height: 15px;
+    border-style: solid;
+    border-color: var(--text-color);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+}
+
+input[type="checkbox"]:checked {
+    color: var(--text-color);
+    background: var(--item-hover-main);
+}
+
+input[type="checkbox"]:checked:before {
+	opacity: 1;
+}
+
+.input-images-wrapper {
+	display: flex;
+	flex-direction: row;
+}
+
+input[type="file"] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+
+.form-input-image-label {
+	cursor: pointer;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 176px;
+	height: 99px;
+	z-index: 2;
+	overflow: hidden;
+	border: 2px solid var(--border-yellow);
+	border-right: none;
+	background: var(--white-gray-switch);
+}
+
+.form-input-image-label:before {
+	position: absolute;
+	content: '';
+	background: url('/DIPLOMA/images/camera-minimal.png');
+	background-size: 100% 100%;
+	filter: opacity(25%);
+	width: 80px;
+	height: 80px;
+	z-index: 1;
+    background-blend-mode: color;
+	top: calc(50% - 40px);
+	left: calc(50% - 40px);
+}
+
+html[data-theme="dark"] .form-input-image-label:before {
+	filter: invert(90%) opacity(25%);
+}
+
+.form-input-image-label p {
+	position: absolute;
+	width: 100%;
+	padding: 2px 0;
+	text-align: center;
+	background: var(--link-hover-main);
+	bottom: 0;
+	margin: 0;
+}
+
+.clear-input-image {
+	position: absolute;
+	cursor: pointer;
+	outline: none;
+	font-size: 18px;
+	border: none;
+	color: #000;
+	padding: 0 5px;
+	top: 5px;
+	right: 5px;
+	z-index: 3;
+	border-radius: 3px;
+	background: var(--border-yellow);
+	transition: background 0.2s ease-in-out;
+}
+
+.clear-input-image:hover {
+	background-color: var(--link-hover-secondary);
+}

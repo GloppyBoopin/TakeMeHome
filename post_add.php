@@ -4,10 +4,13 @@
 	<title>TakeMeHome - подать объявление</title>
 	<link rel="stylesheet" type="text/css" href="css/variables.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/post_ad.css">
+	<link rel="stylesheet" type="text/css" href="css/post_add.css">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	
 </head>
 <body>
 	<header>
@@ -29,7 +32,7 @@
 				</form>
 			</div>
 			<div class="theme-switch-wrapper">
-			    <input type="checkbox" id="theme-switch" name="theme" />
+			    <input type="checkbox" id="theme-switch" name="theme" style="border: none;" />
 			    <label for="theme-switch"></label>
 			    <p>Сменить тему</p>
 			</div>
@@ -58,7 +61,7 @@
 		<div class="form-wrapper">
 			<div class="input-wrapper">
 				<input class="form-input-text" id="pet-name" type="text" name="">
-				<label class="form-input-label required" for="pet-name">Имя питомца</label>
+				<label class="form-input-label" for="pet-name">Имя питомца</label>
 			</div>
 			<div class="input-wrapper">
 				<textarea class="form-textarea" id="pet-description" placeholder="Введите текст..."></textarea>
@@ -79,7 +82,50 @@
 				</div>
 				<label class="form-input-label required" for="pet-category-select">Категория</label>
 			</div>
-			<div class="input-wrapper"></div>
+			<div class="input-wrapper">
+				<input type="checkbox" name="" id="lost-and-found-checkbox">
+				<label style="top: 0;" class="form-input-label" for="lost-and-found-checkbox">Объявление в бюро находок</label>
+			</div>
+			<div class="input-wrapper">
+				<div class="input-images-wrapper">
+					<label class="form-input-label">
+						Фотографии
+						<p>Подходят и вертикальные, и горизонтальные</p>
+					</label>
+					<div style="position: relative;">
+						<button type="button" class="clear-input-image">✖</button>
+						<label class="form-input-image-label" for="input-image-1" style="border-top-left-radius: 5px; border-bottom-left-radius: 5px;">
+							<input type="file" name="" id="input-image-1" onchange="readURL(this);">
+							<img src="" alt="" class="input-image-preview">
+							<p>Главная фотография</p>
+						</label>
+					</div>
+					<div style="position: relative;">
+						<button type="button" class="clear-input-image">✖</button>
+						<label class="form-input-image-label" for="input-image-2">
+							<input type="file" name="" id="input-image-2" onchange="readURL(this)">
+							<img src="" alt="" class="input-image-preview">
+						</label>
+					</div>
+					<div style="position: relative;">
+						<button type="button" class="clear-input-image">✖</button>
+						<label class="form-input-image-label" for="input-image-3">
+							<input type="file" name="" id="input-image-3" onchange="readURL(this)">
+							<img src="" alt="" class="input-image-preview">
+						</label>
+					</div>
+					<div style="position: relative;">
+						<button type="button" class="clear-input-image">✖</button>
+						<label class="form-input-image-label" for="input-image-4" style="border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-right: 2px solid var(--border-yellow);">
+							<input type="file" name="" id="input-image-4" onchange="readURL(this)">
+							<img src="" alt="" class="input-image-preview">
+						</label>
+					</div>
+
+					
+				<script type="text/javascript" src="js/image-upload.js"></script>	
+				</div>
+			</div>
 		</div>
 	</form>
 </main>
