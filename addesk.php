@@ -8,6 +8,9 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/list-grid-switch.js"></script>
 </head>
 <body>
 	<header>
@@ -49,6 +52,7 @@
 
 	</header>
 <main>
+	<p class="search-clarifier">Поиск по объявлениям <i class="fas fa-level-down-alt"></i></p>
 	<div class="search-wrapper">
 		<!-- Поиск по объявлениям -->
 		<form>  
@@ -88,6 +92,10 @@
 				</a>
 			</div>
 		</div>
+		<div class="list-grid-switches">
+			<button class="active list-grid-switch" id="grid"><i class="fas fa-th-large"></i> Блоками</button>
+			<button class="list-grid-switch" id="list"><i class="fas fa-th-list"></i> Списком</button>
+		</div>
 	</div>
 	<div class="addesk-items">
 		<a href="" class="addesk-item-link">
@@ -116,7 +124,7 @@
 		<a href="" class="addesk-item-link">
 			<div class="addesk-item">
 				<div class="addesk-item-image-wrapper left" style="">
-					<img src="images/dog.png" alt="Фотография" class="addesk-item-image"> <!-- Если нет фотографий можно поставить филлер -->
+					<img src="images/fishes-cut.png" alt="Фотография" class="addesk-item-image"> <!-- Если нет фотографий можно поставить филлер -->
 				</div>
 				<div class="addesk-item-info right">
 					<p class="addesk-item-head">Догич, 16 лет, пьяный</p> <!-- Порода, пол, возраст (если есть) -->
@@ -139,7 +147,7 @@
 		<a href="" class="addesk-item-link">
 			<div class="addesk-item">
 				<div class="addesk-item-image-wrapper left" style="">
-					<img src="images/dog.png" alt="Фотография" class="addesk-item-image"> <!-- Если нет фотографий можно поставить филлер -->
+					<img src="images/cat.png" alt="Фотография" class="addesk-item-image"> <!-- Если нет фотографий можно поставить филлер -->
 				</div>
 				<div class="addesk-item-info right">
 					<p class="addesk-item-head">Догич, 16 лет, пьяный</p> <!-- Порода, пол, возраст (если есть) -->
@@ -162,7 +170,7 @@
 		<a href="" class="addesk-item-link">
 			<div class="addesk-item">
 				<div class="addesk-item-image-wrapper left" style="">
-					<img src="images/dog.png" alt="Фотография" class="addesk-item-image"> <!-- Если нет фотографий можно поставить филлер -->
+					<img src="images/hamsters-cut.png" alt="Фотография" class="addesk-item-image"> <!-- Если нет фотографий можно поставить филлер -->
 				</div>
 				<div class="addesk-item-info right">
 					<p class="addesk-item-head">Догич, 16 лет, пьяный</p> <!-- Порода, пол, возраст (если есть) -->

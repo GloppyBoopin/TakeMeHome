@@ -106,10 +106,10 @@
 	background: var(--main-color);
 }
 
-html[data-theme="dark"] .new-shop-items{
+/*html[data-theme="dark"] .new-shop-items{
 	border-top: 3px solid var(--border-yellow);
 	border-bottom: 3px solid var(--border-yellow);
-}
+}*/
 
 .new-shop-items-container {
 	display: flex;
