@@ -1,0 +1,238 @@
+h1 {
+	margin: 50px 0;
+	padding-left: 20px;
+	color: #000;
+}
+
+/*=============================================list grid==============================================*/
+
+.list-grid-switches {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 45px;
+	padding: 0 89px;
+	border-top: 3px solid #ECAD0D;
+	border-bottom: 3px solid #ECAD0D;
+}
+
+html[data-theme="dark"] .list-grid-switches {
+	background: var(--main-color);
+}
+
+.list-grid-switch {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	color: var(--text-color);
+	font-size: 18px;
+	font-weight: 600;
+	background: none;
+}
+
+.list-grid-switch:last-child {
+	margin-left: 60px;
+}
+
+.list-grid-switch i {
+	font-size: 28px;
+	margin-right: 5px;
+}
+
+/*=============================================addesk item==========================================*/
+
+.addesk-items {
+	padding: 20px 80px;
+	background: var(--white-gray-switch);
+}
+
+.addesk-item {
+	display: inline-block;
+	width: 497px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 70px;
+	padding: 6px 3px;
+	height: 251px;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+	background: #FFFFFF;
+	border: none;
+	border-radius: 3px;
+
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition : all 0.2s ease-in-out;
+}
+
+html[data-theme="dark"] .addesk-item {
+	background: #222;
+}
+
+.addesk-item-link:hover .addesk-item,
+.addesk-item-link:active .addesk-item {
+	border-radius: 10px;
+	background: var(--item-hover-main);
+	/*border: 3px solid #F2B61B;*/
+	/*box-sizing: border-box;*/
+	box-shadow: inset 0 0 0 3px #F2B61B;
+}
+
+.addesk-item-link:hover .addesk-item-image-wrapper,
+.addesk-item-link:active .addesk-item-image-wrapper {
+	background: var(--item-hover-main);
+} 
+
+.addesk-item p {
+	margin-bottom: 0;
+	padding-left: 10px; 
+}
+
+.addesk-item-image-wrapper {
+	overflow: hidden;
+	position: relative;
+	width: 188px;
+	height: inherit;
+	background: #f6f6f6;
+}
+
+html[data-theme="dark"] .addesk-item-image-wrapper {
+	background: #181818;
+}
+
+.addesk-item-image {
+	position: absolute;
+	top: -100%;
+    bottom: -100%;
+    left: -100%;
+    right: -100%;
+	margin: auto;
+	height: 250px;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+html[data-theme="dark"] .addesk-item-image {
+	filter: brightness(0.8) contrast(1.1);
+}
+
+.addesk-item-info {
+	height: inherit;
+	position: relative;
+}
+
+.addesk-item-head {
+	margin-top: 15px;
+	max-width: 290px;
+	max-height: 45px;
+	overflow: hidden;
+	font-size: 20px;
+	color: #efb700;
+}
+
+.addesk-item-category {
+	margin-top: 8px;
+	font-size: 12px;
+	font-weight: 400;
+	opacity: 0.5;
+	overflow: hidden;
+}
+
+.addesk-item-description {
+	max-width: 290px;
+	margin-top: 8px;
+	font-size: 14px;
+	line-height: 18px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+}
+
+.addesk-item-phone {
+	font-size: 18px;
+	font-weight: 400;
+	overflow: hidden;
+}
+
+.addesk-item-bottom {
+	position: absolute;
+	width: 290px;
+	bottom: 10px;
+}
+
+.addesk-item-date {
+	margin-top: 0;
+	font-size: 12px;
+	font-weight: 400;
+	opacity: 0.5;
+}
+
+.addesk-item-price {
+	margin-top: 3px;
+	font-size: 18px;
+}
+
+/*=========================================addesk item list view===================================*/
+
+.active i {
+	color: #ECAD0D;
+}
+
+.list .addesk-item {
+	display: block;
+	margin: 0 auto 20px auto;
+	width: 1000px;
+	height: 188px;
+	position: relative;
+}
+
+.list .addesk-item-image-wrapper {
+	width: 300px;
+}
+
+.list .addesk-item-image {
+	height: 300px;
+	max-width: 400px;
+	max-height: 300px;
+}
+
+.list .addesk-item-info {
+	float: none !important;
+}
+
+.list .addesk-item-head {
+	max-width: 500px;
+}
+
+.list .addesk-item-category {
+	max-width: 500px;
+}
+
+.list .addesk-item-description {
+	max-width: 500px;
+}
+
+.list .addesk-item-bottom {
+	top: -20px;
+	bottom: 10px;
+	right: 0;
+	width: 200px;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
+.list .addesk-item-date-price {
+	float: none !important;
+	text-align: right;
+}
+
+.list .addesk-item-price {
+	font-size: 24px;
+}
+
+.list .addesk-item-favorite {
+	margin-top: 100px;
+}

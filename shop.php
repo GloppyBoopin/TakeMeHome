@@ -8,6 +8,9 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/list-grid-switch.js"></script>
 </head>
 <body>
 	<header>
@@ -48,7 +51,7 @@
 		<a href="" class="link-ad-addesk">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
 	</header>
 <main>
-	<p class="search-description"></p>
+	<p class="search-clarifier">Поиск по товарам <i class="fas fa-level-down-alt"></i></p>
 	<div class="search-wrapper">
 		<!-- Поиск по товарам -->
 		<form>  
@@ -99,7 +102,10 @@
 			</a>
 		</div>
 	</div>
-
+	<div class="list-grid-switches">
+		<button class="active list-grid-switch" id="grid"><i class="fas fa-th-large"></i> Блоками</button>
+		<button class="list-grid-switch" id="list"><i class="fas fa-th-list"></i> Списком</button>
+	</div>
 	<div class="shop-items">
 		<div class="shop-items-filter"></div>
 		<div class="shop-items-container">
@@ -115,7 +121,7 @@
 				</a>
 				<div class="shop-item-image-container">
 					<!-- Сюда картинку и название -->
-					<img src="images/parrots-cut.png" class="shop-item-image">
+					<img src="images/hamsters-cut.png" class="shop-item-image">
 					<p class="shop-item-image-name">Nigg</p>
 				</div>
 				<div class="shop-item-form-price-container">
@@ -143,7 +149,7 @@
 				</a>
 				<div class="shop-item-image-container">
 					<!-- Сюда картинку и название -->
-					<img src="images/parrots-cut.png" class="shop-item-image">
+					<img src="images/cat.png" class="shop-item-image">
 					<p class="shop-item-image-name">Nigg</p>
 				</div>
 				<div class="shop-item-form-price-container">
