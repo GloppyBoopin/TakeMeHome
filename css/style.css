@@ -50,6 +50,7 @@ header {
 }
 
 .header-nav {
+	position: relative;
 	display: flex;
 	width: 100%;
 	height: 100px;
@@ -278,6 +279,17 @@ header {
 	height: 14px;
 	font-size: 14px;
 	border-radius: 20px;
+}
+
+.header-nav-login-reg {
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+}
+
+.header-nav-login-reg-link:hover,
+.header-nav-login-reg-link:active {
+	text-decoration: underline;
 }
 
 /*------------------------------------------slider------------------------------------------------*/

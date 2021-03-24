@@ -20,6 +20,7 @@
 	display: flex;
 	flex-direction: column;
 	margin-left: calc(50% - 160px);
+	padding-bottom: 30px;
 }
 
 .input-wrapper {
@@ -80,6 +81,34 @@
 	border-radius: 5px;
 	width: 480px;
 	height: 180px;
+}
+
+.form-button {
+	cursor: pointer;
+	display: block;
+	width: 300px;
+	margin-top: 10px;
+	color: var(--text-color);
+	font-size: 20px;
+	font-weight: 600;
+	outline: none;
+	text-align: center;
+	padding: 10px 20px;
+	background: var(--white-gray-switch) /*#FFFFFF*/;
+	border: 2px solid var(--border-yellow);
+	border-radius: 10px;
+	transition: background 0.2s ease-in-out;
+	-webkit-transition: background 0.2s ease-in-out;
+  	-moz-transition: background 0.2s ease-in-out;
+  	-o-transition : background 0.2s ease-in-out;	
+}
+
+.form-button:hover {
+	background: var(--link-hover-main);
+}
+
+html[data-theme="dark"] .form-button:hover {
+	background: #222;
 }
 
 /*---------------------------------------------------select--------------------------------------------------*/
