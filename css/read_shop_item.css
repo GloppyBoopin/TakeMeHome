@@ -1,0 +1,155 @@
+/*=============================================add to cart======================================*/
+
+input[type=number] {
+	-webkit-appearance: textfield;
+    -moz-appearance: textfield;
+ 	appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
+
+.input-number-wrapper {
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 30px;
+}
+
+.plus-minus-button {
+	margin: 0;
+	padding: 0;
+	bottom: 3px;
+	border: 1px solid black;
+	width: 40px;
+	height: 30px;
+	background: white;
+	font-size: 24px;
+	z-index: 2;
+
+	transition: background 0.2s ease-in-out;
+	-webkit-transition: background 0.2s ease-in-out;
+  	-moz-transition: background 0.2s ease-in-out;
+  	-o-transition : background 0.2s ease-in-out;
+}
+
+.plus-minus-button:focus {
+	outline: none;
+}
+
+.plus-minus-button:hover,
+.plus-minus-button:active {
+	background: #EAEAEA
+}
+
+.input-number {
+	right: 34px;
+	bottom: 3px;
+	border: 1px solid black;
+	border-left: none;
+	border-right: none;
+	padding: 0;
+	margin: 0;
+	font-size: 24px;
+	height: 28px;
+	width: 40px;
+	text-align: center;
+	z-index: 2;
+}
+
+.input-number:focus {
+	outline: none;
+}
+
+.minus-button {
+	border-right: none;
+	margin-right: -5px;
+}
+
+.plus-button {
+	border-left: none;
+	margin-left: -5px;
+}
+
+.shop-item-cart-button{
+	background: #FFD439;
+	border-radius: 10px;
+	font-size: 24px;
+	font-weight: 600;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	width: 225px;
+	padding: 7px;
+	z-index: 2;
+
+	transition: background 0.2s ease-in-out;
+	-webkit-transition: background 0.2s ease-in-out;
+  	-moz-transition: background 0.2s ease-in-out;
+  	-o-transition : background 0.2s ease-in-out;
+}
+
+.shop-item-cart-button:hover,
+.shop-item-cart-button:active {
+	background: var(--link-hover-secondary);
+}
+
+/*=================================================review form======================================*/
+
+.rating {
+	width: 175px;
+}
+.rating span { 
+	float:right;
+	position:relative;
+}
+.rating span input {
+    position:absolute;
+    cursor: pointer;
+    top:0px;
+    left:0px;
+    opacity:0;
+}
+.rating span label {
+	cursor: pointer;
+    display:inline-block;
+    width:30px;
+    height:30px;
+    text-align:center;
+    color: var(--text-color);
+    background: var(--white-gray-switch);
+    font-size:30px;
+    margin-right:5px;
+    line-height:30px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+}
+form .rating span:hover ~ span label,
+form .rating span:hover label,
+form .rating span.checked label,
+form .rating span.checked ~ span label {
+    color:#F90;
+}
+
+.add-comment .rating {
+	width: 115px;
+}
+
+.add-comment .rating span label {
+	cursor: default;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 18px;
+}
+
+.add-comment .rating span label i {
+	font-size: 18px;
+}
+
+
+.add-comment .rating span.checked label,
+.add-comment .rating span.checked ~ span label {
+	color:#F90;
+}
