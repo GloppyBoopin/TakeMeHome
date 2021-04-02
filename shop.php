@@ -126,6 +126,14 @@
 					<!-- Сюда картинку и название -->
 					<img src="images/hamsters-cut.png" class="shop-item-image">
 					<p class="shop-item-image-name">Nigg</p>
+					<div class="rating">
+						<!-- Добавлять класс checked span'у, который отмечен по счёту снизу вверх -->
+						<span><label><i class="fas fa-star"></i></label></span>
+						<span class="checked"><label><i class="fas fa-star"></i></label></span>
+						<span><label><i class="fas fa-star"></i></label></span>
+						<span><label><i class="fas fa-star"></i></label></span>
+						<span><label><i class="fas fa-star"></i></label></span>
+					</div>
 				</div>
 				<div class="shop-item-form-price-container">
 					<!-- Цена и добавление в корзину с количеством -->
@@ -154,6 +162,14 @@
 					<!-- Сюда картинку и название -->
 					<img src="images/cat.png" class="shop-item-image">
 					<p class="shop-item-image-name">Nigg</p>
+					<div class="rating">
+						<!-- Добавлять класс checked span'у, который отмечен по счёту снизу вверх -->
+						<span><label><i class="fas fa-star"></i></label></span>
+						<span class="checked"><label><i class="fas fa-star"></i></label></span>
+						<span><label><i class="fas fa-star"></i></label></span>
+						<span><label><i class="fas fa-star"></i></label></span>
+						<span><label><i class="fas fa-star"></i></label></span>
+					</div>
 				</div>
 				<div class="shop-item-form-price-container">
 					<!-- Цена и добавление в корзину с количеством -->

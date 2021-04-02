@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<title>TakeMeHome - объявление</title>
+	<title>TakeMeHome - товар</title>
 	<link rel="stylesheet" type="text/css" href="css/variables.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/read_add.css">
@@ -80,6 +79,9 @@
 					</div>
 					<button type="submit" class="shop-item-cart-button">Добавить в <i class="fa fa-shopping-basket"></i></button>
 				</form>
+				<div class="add-item-price-container">
+					<p>80 000т</p>
+				</div>
 			</div>
 			<div class="add-comments">
 				<h1>Отзывы</h1>

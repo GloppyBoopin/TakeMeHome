@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>TakeMeHome - объявления</title>
+	<title>TakeMeHome - бюро находок</title>
 	<link rel="stylesheet" type="text/css" href="css/variables.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/addesk.css">

@@ -175,6 +175,17 @@ html[data-theme="dark"] .addesk-item-image {
 	font-size: 18px;
 }
 
+.addesk-item-remove {
+	background: none;
+	outline: none;
+	border: none;
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 2px;
+	cursor: pointer;
+	color: red;
+}
+
 /*=========================================addesk item list view===================================*/
 
 .active i {
@@ -235,4 +246,8 @@ html[data-theme="dark"] .addesk-item-image {
 
 .list .addesk-item-favorite {
 	margin-top: 100px;
+}
+
+.list .addesk-item-remove {
+	margin-top: 95px;	
 }

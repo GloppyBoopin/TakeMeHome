@@ -95,6 +95,9 @@
 				<div class="shop-item-price-container">
 					<!-- Цена и добавление в корзину с количеством -->
 					<p class="shop-item-price">80 000 т</p>
+					<form>
+						<button class="shop-item-remove"><i class="fas fa-trash-alt"></i></button>
+					</form>
 				</div>
 			</div>
 			<div class="shop-item">
@@ -117,9 +120,12 @@
 				<div class="shop-item-price-container">
 					<!-- Цена и добавление в корзину с количеством -->
 					<p class="shop-item-price">80 000 т</p>
+					<form>
+						<button class="shop-item-remove"><i class="fas fa-trash-alt"></i></button>
+					</form>
 				</div>
 			</div>
-			<form>
+			<form class="shop-items-order-form">
 				<button class="shopping-basket-order">Оформить заказ</button>
 			</form> 
 		</div>

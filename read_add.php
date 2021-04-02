@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
 	<title>TakeMeHome - объявление</title>
 	<link rel="stylesheet" type="text/css" href="css/variables.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -73,6 +72,9 @@
 				<form method="" action="">
 					<button class="add-item-favorite">В избранное <i class="far fa-heart"></i></button> <!-- добавить в избранное -->
 				</form>
+				<div class="add-item-price-container">
+					<p>80 000т</p>
+				</div>
 			</div>
 			<div class="add-comments">
 				<h1>Комментарии</h1>

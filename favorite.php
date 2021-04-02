@@ -81,6 +81,11 @@
 							<p class="addesk-item-date">26.11.2020 14:23</p> 
 							<p class="addesk-item-price">300 000 т</p>
 						</div>
+						<div class="right">
+							<form>
+								<button class="addesk-item-remove"><i class="fas fa-trash-alt"></i></button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -100,6 +105,11 @@
 						<!-- Дата добавления и цена, если нет цены то "Даром" --> 
 							<p class="addesk-item-date">26.11.2020 14:23</p> 
 							<p class="addesk-item-price">ДАРОМ</p>
+						</div>
+						<div class="right">
+							<form>
+								<button class="addesk-item-remove"><i class="fas fa-trash-alt"></i></button>
+							</form>
 						</div>
 					</div>
 				</div>
@@ -121,6 +131,11 @@
 							<p class="addesk-item-date">26.11.2020 14:23</p> 
 							<p class="addesk-item-price">ДАРОМ</p>
 						</div>
+						<div class="right">
+							<form>
+								<button class="addesk-item-remove"><i class="fas fa-trash-alt"></i></button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -140,6 +155,11 @@
 						<!-- Дата добавления и цена, если нет цены то "Даром" --> 
 							<p class="addesk-item-date">26.11.2020 14:23</p> 
 							<p class="addesk-item-price">ДАРОМ</p>
+						</div>
+						<div class="right">
+							<form>
+								<button class="addesk-item-remove"><i class="fas fa-trash-alt"></i></button>
+							</form>
 						</div>
 					</div>
 				</div>

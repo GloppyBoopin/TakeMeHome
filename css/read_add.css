@@ -54,8 +54,19 @@ h1 {
 
 .add-item form {
 	display: flex;
+	float: right;
+	width: 500px;
 	justify-content: flex-end;
-	margin-top: 20px;
+	margin-top: 25px;
+}
+
+.add-item-price-container {
+	padding-left: 10px;
+}
+
+.add-item-price-container p {
+	font-size: 30px;
+	margin-bottom: 5px;
 }
 
 .add-item-favorite {

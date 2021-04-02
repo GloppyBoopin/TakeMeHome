@@ -84,7 +84,7 @@
 			</div>
 			<div class="input-wrapper">
 				<input class="form-input-text" id="reg-username" type="text" name="">
-				<label class="form-input-label " for="reg-username">
+				<label class="form-input-label required" for="reg-username">
 					Псевдоним/Имя
 				</label>
 			</div>

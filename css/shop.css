@@ -295,7 +295,7 @@ html[data-theme="dark"] .shop-items{
 	height: 352px;
 	margin-right: 63px;
 	background: #FFFFFF;
-	box-shadow: 1px 1px 4px rgba(100, 100, 100, 0.25);
+	box-shadow: 2px 2px 6px rgb(0, 0, 0, 0.25);
 	border-radius: 10px;
 }
 
@@ -315,7 +315,7 @@ html[data-theme="dark"] .shop-items-filter {
 	height: 348px;
 	padding: 6px 0;
 	margin: 0 20px 20px 20px;
-	box-shadow: 2px 2px 4px rgba(100, 100, 100, 0.25);
+	box-shadow: 2px 2px 6px rgb(0, 0, 0, 0.25);
 /*	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);*/
 	border-radius: 10px;
 
@@ -529,6 +529,43 @@ input[type=number]::-webkit-outer-spin-button {
 	background: var(--link-hover-secondary);
 }
 
+
+.rating {
+	position: absolute;
+	display: none;
+	width: 115px;
+	left: 320px;
+	bottom: 70px;
+}
+.rating span { 
+	float:right;
+	position:relative;
+}
+
+.rating span label {
+	cursor: default;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 18px;
+    display:inline-block;
+    text-align:center;
+    color: var(--text-color);
+    margin-right:5px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+.shop-item .rating span label i {
+	font-size: 18px;
+}
+
+.shop-item .rating span.checked label,
+.shop-item .rating span.checked ~ span label {
+	color:#F90;
+}
+
+
 /*======================================shop item list view===========================================*/
 
 .active i {
@@ -582,4 +619,10 @@ input[type=number]::-webkit-outer-spin-button {
 .list .shop-item-read-link {
 	top: 55px;
 	left: 460px;
+}
+
+
+.list .rating {
+	display: block;
+	align-self: flex-end;
 }
