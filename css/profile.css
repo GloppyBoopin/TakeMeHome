@@ -1,0 +1,174 @@
+.profile {
+	padding: 40px 100px;
+	min-height: 500px;
+}
+
+.profile-settings {
+	display: flex;
+	width: 1052px;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 15px;
+	border: 2px solid var(--border-yellow);
+	box-shadow: 2px 2px 6px rgb(0, 0, 0, 0.25);
+}
+
+.profile-sidebar {
+	width: 250px;
+	background: var(--white-gray-switch);
+	border-right: 2px solid var(--border-yellow);
+}
+
+.profile-sidebar-link:link,
+.profile-sidebar-link:visited {
+	display: block;
+	padding: 15px;
+	font-size: 24px;
+	border-bottom: 2px solid #eaeaea;
+	transition: background 0.2s ease-in-out;
+}
+
+html[data-theme="dark"] .profile-sidebar-link {
+	border-bottom-color: #222;
+}
+
+.profile-sidebar-link:hover,
+.profile-sidebar-link:active {
+	background: #eaeaea;
+}
+
+html[data-theme="dark"] .profile-sidebar-link:hover,
+html[data-theme="dark"] .profile-sidebar-link:active {
+	background: #222;
+}
+
+.active {
+	background: #eaeaea;
+}
+
+html[data-theme="dark"] .active {
+	background: #222;
+}
+
+.profile-container {
+	width: 760px;
+	padding: 20px;
+	background: var(--white-gray-switch);
+}
+
+/*================================================addesk========================================*/
+
+.addesk-items {
+	padding: 0 !important;
+	background: none !important;
+}
+
+.addesk-item {
+	width: 700px !important;
+}
+
+.addesk-item-head {
+	max-width: 250px !important;
+}
+
+.addesk-item-bottom {
+	width: 120px !important;
+}
+
+/*===========================================settings==========================================*/
+
+.profile-settings-section {
+}
+
+.main-h1 {
+	color: unset !important;
+	font-size: 30px !important;
+	margin-top: 0 !important;
+	margin-bottom: 20px !important;
+}
+
+.main-p {
+	color: unset !important;
+	width: unset !important;
+	margin: 0 !important;
+}
+
+.form-input-label {
+	color: unset !important;
+}
+
+.form-button {
+	background: #FFD439 !important;
+	color: #000 !important;
+	border: none !important;
+}
+
+.form-button:hover {
+	background: var(--link-hover-secondary) !important;
+}
+
+hr {
+	background: #eaeaea;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 3px;
+	border: none;
+}
+
+html[data-theme="dark"] hr {
+	background: #222;
+}
+
+/*=====================================================business======================================*/
+
+.form-input-file-wrapper {
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.form-input-file-label {
+	border: 2px solid var(--border-yellow);
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+input[type="file"] {
+	display: none;
+}
+
+#is-uploaded {
+	margin-top: 30px;
+}
+
+#upload-file {
+	display: none;
+	cursor: pointer;
+	outline: none;
+	padding: 15px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 10px;
+	border: none;
+	background: #FFD439;
+	transition: background 0.2s ease-in-out;
+}
+
+#upload-file:hover {
+	background: var(--link-hover-secondary);
+}
+
+.delete-account-button {
+	color: #fff !important;
+	background: red !important;
+}
+.delete-account-button:hover {
+	background: red !important; 
+}
+
+html[data-theme="dark"] .delete-account-button {
+	background: #c50000 !important;
+}

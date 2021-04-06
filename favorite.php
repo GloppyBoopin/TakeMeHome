@@ -44,10 +44,6 @@
 				<p>Профиль</p>
 			</a>
 			<a href="" class="header-nav-icon-link">
-				<i class="header-nav-icon far fa-heart"></i>
-				<p>Избранное</p>
-			</a>
-			<a href="" class="header-nav-icon-link">
 				<i class="header-nav-icon fas fa-shopping-basket"></i>
 				<p>Корзина</p>
 				<p class="shopping-bag-item-count">1</p> <!-- Отображать если в корзине есть товары -->

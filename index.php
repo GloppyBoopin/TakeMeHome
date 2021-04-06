@@ -38,7 +38,7 @@
 			<script type="text/javascript" src="js/theme-switch.js"></script>
 			<div class="header-nav-icons-wrapper">
 				<a href="" class="header-nav-icon-link">
-					<!-- Скрыть если пользователь не вошёл в аккаунт -->
+					<!-- Скрыть если пользователь НЕ вошёл в аккаунт -->
 					<i class="header-nav-icon far fa-user"></i>
 					<p>Профиль</p>
 				</a>
