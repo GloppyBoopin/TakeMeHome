@@ -87,9 +87,18 @@ header {
 }
 
 .header-phone-numbers {
+	position: relative;
 	font-size: 12px;
 	line-height: 18px;
 	margin-left: 40px;
+	text-align: center;
+}
+
+.header-admin-courier-link {
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+	font-size: 18px;
 	text-align: center;
 }
 

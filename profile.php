@@ -26,6 +26,17 @@
 				+7(800)555-35-35
 				<br>
 				+7(777)221-66-66
+				<!-- Показывать один из этих блоков только если пользователь админ или курьер соответственно -->
+				<div class="header-admin-courier-link">
+					<a href="">
+						<i class="fas fa-user-shield"></i> Админ
+					</a>
+				</div>
+				<div class="header-admin-courier-link">
+					<a href="">
+						<i class="fas fa-id-badge"></i> Курьер
+					</a>
+				</div>
 			</div>
 			<div class="header-nav-form-link-ad">
 				<!-- search form -->
@@ -36,7 +47,7 @@
 				<a href="" class="link-ad">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
 			</div>
 			<div class="theme-switch-wrapper">
-			    <input type="checkbox" id="theme-switch" name="theme" />
+			    <input type="checkbox" id="theme-switch" style="border: unset !important;" name="theme" />
 			    <label for="theme-switch"></label>
 			    <p>Сменить тему</p>
 			</div>

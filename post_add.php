@@ -23,6 +23,17 @@
 				+7(800)555-35-35
 				<br>
 				+7(777)221-66-66
+				<!-- Показывать один из этих блоков только если пользователь админ или курьер соответственно -->
+				<div class="header-admin-courier-link">
+					<a href="">
+						<i class="fas fa-user-shield"></i> Админ
+					</a>
+				</div>
+				<div class="header-admin-courier-link">
+					<a href="">
+						<i class="fas fa-id-badge"></i> Курьер
+					</a>
+				</div>
 			</div>
 			<div class="header-nav-form-link-ad">
 				<!-- search form -->
