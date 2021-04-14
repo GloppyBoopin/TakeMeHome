@@ -72,6 +72,7 @@
 					<a href="#business-requests" class="profile-sidebar-link">Заявки бизнесов</a>
 				</div>
 				<div class="profile-container">
+
 					<div class="profile-content" id="couriers-list">
 						<div class="couriers-list-header">
 							<div class="courier-name">
@@ -116,6 +117,7 @@
 							</div>
 						</div>
 					</div>
+
 					<div class="profile-content" id="orders-list">
 						<div class="orders-list-header">
 							<div class="order-id">
@@ -148,11 +150,44 @@
 								Дом игровая площадка для котов Detre (x1)
 							</div>
 							<div class="order-delivery-type">
-								Самовывоз
+								Курьер
 							</div>
 						</div>
 					</div>
-					<div class="profile-content" id="business-requests">и</div>
+
+					<div class="profile-content" id="business-requests">
+						<div class="business-requests-header">
+							<div class="business-request-info">
+								Пользователь
+							</div>
+							<div class="business-request-link">
+								Файл
+							</div>
+							<div class="business-request-approve">
+								Подтверждение
+							</div>
+						</div>
+						<div class="business-request-item">
+							<div class="business-request-info">
+								GloppyBoopin
+								<br>
+								+77053134788
+							</div>
+							<div class="business-request-link">
+								<!-- В href путь к файлу -->
+								<a href="images/background-1.jpg" download>	
+									<i class="far fa-file"></i><!-- file name -->i_hate_black_gingers.png
+								</a>
+							</div>
+							<div class="business-request-approve">
+								<form>
+									<!-- user id -->
+									<input type="hidden" name="">
+									<button class="business-request-approve-button">Подтвердить</button>
+								</form>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

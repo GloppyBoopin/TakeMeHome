@@ -161,3 +161,112 @@ html[data-theme="dark"] .orders-list-item {
 	height: inherit;
 }
 
+/*==========================================business requests=======================================*/
+
+.business-requests-header {
+	display: flex;
+	width: 760px;
+	height: 50px;
+	font-size: 20px;
+	align-items: center;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+html[data-theme="dark"] .business-requests-header {
+	background: #222;
+}
+
+.business-request-info {
+	display: flex;
+	padding-left: 20px;
+	align-items: center;
+	width: 230px;
+	line-height: 24px;
+	border-right: 3px solid #eaeaea;
+}
+
+
+html[data-theme="dark"] .business-request-info {
+	border-right-color: #181818;
+}
+
+.business-request-link {
+	display: flex;
+	align-items: center;
+	width: 280px;
+	padding-left: 20px;
+	line-height: 24px;
+	border-right: 3px solid #eaeaea;
+}
+
+html[data-theme="dark"] .business-request-link {
+	border-right-color: #181818;
+}
+
+.business-request-link a {
+	display: flex;
+	align-items: center;
+}
+
+.business-request-link a i {
+	font-size: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+
+.business-request-approve {
+	display: flex;
+	align-items: center;
+	width: 180px;
+	padding-left: 20px;
+}
+
+.business-request-item {
+	display: flex;
+	height: 100px;
+	width: 760px;
+	font-size: 16px;
+	align-items: center;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+
+html[data-theme="dark"] .business-request-item {
+	background: #222;
+}
+
+.business-request-item * {
+	height: inherit;
+	max-height: inherit;
+}
+
+.business-requests-header * {
+	height: inherit;
+}
+
+.business-request-approve-button {
+	cursor: pointer;
+	outline: none;
+	border: 2px solid var(--border-yellow);
+	border-radius: 5px;
+	background: var(--white-gray-switch);
+	color: var(--text-color);
+	height: 40px;
+	width: 160px;
+	padding: 7px;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 30px;
+
+	transition: background 0.2s ease-in-out;
+}
+
+.business-request-approve-button:hover {
+	background: #eaeaea;
+}
+
+html[data-theme="dark"] .business-request-approve-button:hover {
+	background: #222;
+}
