@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>TakeMeHome - админ панель</title>
+	<title>TakeMeHome - курьер</title>
 	<link rel="stylesheet" type="text/css" href="css/variables.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/admin-panel.css">
 	<link rel="stylesheet" type="text/css" href="css/profile.css">
+	<link rel="stylesheet" type="text/css" href="css/courier_menu.css">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
@@ -67,12 +68,80 @@
 		<div class="profile">
 			<div class="profile-settings">
 				<div class="profile-sidebar">
+					<a href="#my-order" class="profile-sidebar-link">Мой заказ</a>
 					<a href="#couriers-list" class="profile-sidebar-link">Список курьеров</a>
-					<a href="#orders-list" class="profile-sidebar-link">Список заказов</a>
-					<a href="#business-requests" class="profile-sidebar-link">Заявки бизнесов</a>
+					<a href="#orders-list" class="profile-sidebar-link">Список заказов</a>	
 				</div>
 				<div class="profile-container">
+					<div class="profile-content" id="my-order">
+						<h1>Номер заказа</h1>
+						<div class="my-order-id">
+							#1818
+						</div>
+						<h1>Данные заказчика</h1>
+						<div class="my-order-orderer-info">
+							<div class="my-order-orderer-name">
+								Имя: GloppyBoopin
+							</div>
+							<div class="my-order-orderer-phone">
+								Телефон: +77053134788
+							</div>
+						</div>
+						<h1>Продукты</h1>
+						<div class="my-order-items">
+							<div class="my-order-item my-order-item-header">
+								<div class="my-order-item-image">
+									Изображение
+								</div>
+								<div class="my-order-item-name">
+									Название
+								</div>
+								<div class="my-order-item-quantity">
+									Количество
+								</div>
+							</div>
 
+							<div class="my-order-item">
+								<div class="my-order-item-image">
+									<img src="images/dog.png" class="item-image">
+								</div>
+								<div class="my-order-item-name">
+									Лежанка для собак KEKL
+								</div>
+								<div class="my-order-item-quantity">
+									1
+								</div>
+							</div>
+
+							<div class="my-order-item">
+								<div class="my-order-item-image">
+									<img src="images/cat.png" class="item-image">
+								</div>
+								<div class="my-order-item-name">
+									Миска для корма Pepe
+								</div>
+								<div class="my-order-item-quantity">
+									2
+								</div>
+							</div>
+
+							<div class="my-order-item">
+								<div class="my-order-item-image">
+									<img src="images/fish-1.png" class="item-image">
+								</div>
+								<div class="my-order-item-name">
+									Дом игровая площадка для котов Detre
+								</div>
+								<div class="my-order-item-quantity">
+									1
+								</div>
+							</div>
+						</div>
+						<h1>Адрес</h1>
+						<div class="my-order-adress">
+							ул. Жарокова дом 151 кв. 322
+						</div>
+					</div>
 					<div class="profile-content" id="couriers-list">
 						<div class="couriers-list-header">
 							<div class="courier-name">
@@ -117,7 +186,6 @@
 							</div>
 						</div>
 					</div>
-
 					<div class="profile-content" id="orders-list">
 						<div class="orders-list-header">
 							<div class="order-id">
@@ -152,50 +220,15 @@
 								Дом игровая площадка для котов Detre (x1)
 							</div>
 							<div class="order-delivery-type">
-								Курьер
-							</div>
-						</div>
-					</div>
-
-					<div class="profile-content" id="business-requests">
-						<div class="business-requests-header">
-							<div class="business-request-info">
-								Пользователь
-							</div>
-							<div class="business-request-link">
-								Файл
-							</div>
-							<div class="business-request-approve">
-								Подтверждение
-							</div>
-						</div>
-						<div class="business-request-item">
-							<div class="business-request-info">
-								GloppyBoopin
-								<br>
-								+77053134788
-							</div>
-							<div class="business-request-link">
-								<!-- В href путь к файлу -->
-								<a href="images/background-1.jpg" download>	
-									<i class="far fa-file"></i><!-- file name -->i_hate_black_gingers.png
-								</a>
-							</div>
-							<div class="business-request-approve">
 								<form>
-									<!-- user id -->
 									<input type="hidden" name="">
-									<button class="business-request-approve-button">Подтвердить</button>
+									<button class="take-order-button">Взять</button>
 								</form>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
 	</main>
-	<footer>
-		
-	</footer>
+	<footer></footer>
 </body>
 </html>

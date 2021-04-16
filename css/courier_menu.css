@@ -1,0 +1,86 @@
+.take-order-button {
+	outline: none;
+	border: 2px solid var(--border-yellow);
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px;
+	height: 50px;
+	font-weight: 600;
+	font-size: 20px;
+	color: var(--text-color);
+	margin-top: 70px;
+	background: var(--white-gray-switch);
+	transition: background 0.2s ease-in-out;
+}
+
+.take-order-button:hover {
+	background: #eaeaea;
+}
+
+html[data-theme="dark"] .take-order-button:hover {
+	background: #222;
+}
+
+/*============================================my-order================================================*/
+
+#my-order h1 {
+	color: #efb700;
+}
+
+#my-order div {
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+.my-order-items {
+	display: flex;
+	width: 760px;
+	flex-direction: column;
+}
+
+.my-order-item {
+	display: flex;
+	height: 100px;
+	font-size: 20px;
+	align-items: center;
+}
+
+.my-order-item-header {
+	height: 30px !important;
+	border-bottom: 2px solid #eaeaea;
+}
+
+html[data-theme="dark"] .my-order-item-header {
+	border-bottom-color: #222;
+}
+
+.my-order-item-image {
+	position: relative;
+	overflow: hidden;
+	width: 200px;
+}
+
+.item-image {
+	position: absolute;
+	margin: auto;
+	top: -100%;
+	bottom: -100%;
+	left: -100%;
+	right: -100%;
+	max-width: 200px;
+	max-height: 150px;
+	min-width: 150px;
+	min-height: 100px;
+}
+
+.my-order-item-name {
+	width: 400px;
+}
+
+.my-order-item-quantity {
+	width: 150px;
+}
+
+.my-order-item * {
+	height: inherit;
+}
