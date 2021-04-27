@@ -136,7 +136,7 @@
 				<div class="shop-item-image-container">
 					<!-- Сюда картинку и название -->
 					<img src="images/hamsters-cut.png" class="shop-item-image">
-					<p class="shop-item-image-name">Nigg</p>
+					<p class="shop-item-image-name">Miska</p>
 					<div class="rating">
 						<!-- Добавлять класс checked span'у, который отмечен по счёту снизу вверх -->
 						<span><label><i class="fas fa-star"></i></label></span>
@@ -172,7 +172,7 @@
 				<div class="shop-item-image-container">
 					<!-- Сюда картинку и название -->
 					<img src="images/cat.png" class="shop-item-image">
-					<p class="shop-item-image-name">Nigg</p>
+					<p class="shop-item-image-name">Lezhanka</p>
 					<div class="rating">
 						<!-- Добавлять класс checked span'у, который отмечен по счёту снизу вверх -->
 						<span><label><i class="fas fa-star"></i></label></span>

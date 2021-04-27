@@ -302,8 +302,8 @@ header {
 }
 
 /*------------------------------------------slider------------------------------------------------*/
-.slider {
-	position: absolute;
+.header-slider {
+	position: absolute !important;
 	width: 1140px;
 	height: 186px;
 	left: 0px;
@@ -311,9 +311,22 @@ header {
 	right: 0px;
 	margin: auto;
 
-	background: #000;
-/*	background: url('images/1848412.png');
-*/}
+}
+
+.header-slider div {
+	width: 1140px;
+	height: 186px;
+	background: blue;
+}
+
+.header-slider img {
+	width: 1140px;
+	height: 186px;
+}
+
+html[data-theme="dark"] .header-slider img {
+	filter: brightness(0.8) contrast(1.1);
+}
 /*------------------------------------------site nav----------------------------------------------*/
 .site-nav {
 	width: 100%;

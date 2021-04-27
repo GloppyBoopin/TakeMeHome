@@ -178,7 +178,7 @@
 							<div class="business-request-link">
 								<!-- В href путь к файлу -->
 								<a href="images/background-1.jpg" download>	
-									<i class="far fa-file"></i><!-- file name -->i_hate_black_gingers.png
+									<i class="far fa-file"></i><!-- file name -->black_gingers.png
 								</a>
 							</div>
 							<div class="business-request-approve">

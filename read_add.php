@@ -9,7 +9,12 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
 	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/sliders.js"></script>
 </head>
 <body>
 <header>
@@ -72,7 +77,13 @@
 	<div class="add-wrapper">
 		<div class="add-content">
 			<div class="add-item">
-				<div class="add-images-slider"></div>
+				<div class="add-images-slider">
+					<!-- Добавляешь столько div'ov сколько картинок -->
+					<div><img src="images/cat.png"></div>
+					<div><img src="images/dog.png"></div>
+					<div><img src="images/hamsters-cut.png"></div>
+					<div><img src="images/parrots-cut.png"></div>
+				</div>
 				<div class="add-item-date">Опубликовано 26.11.2020 14:23</div>
 				<div class="add-item-name">Догич, 16 лет, пьяный</div>
 				<div class="add-item-category">Собаки</div>

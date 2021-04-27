@@ -92,7 +92,7 @@
 				</div>
 				<!-- Название -->
 				<div class="shop-item-name-container">
-					<p class="shop-item-name">Niggerr</p>
+					<p class="shop-item-name">lorem ipsum</p>
 				</div>	
 				<div class="shop-item-quantity-container">
 					<!-- Количество -->
@@ -117,7 +117,7 @@
 				</div>
 				<!-- Название -->
 				<div class="shop-item-name-container">
-					<p class="shop-item-name">Niggerr</p>
+					<p class="shop-item-name">dolor sit amet</p>
 				</div>	
 				<div class="shop-item-quantity-container">
 					<!-- Количество -->
