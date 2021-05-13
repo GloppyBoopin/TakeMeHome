@@ -120,7 +120,7 @@
 			</div>
 			<div class="delivery-categories-wrapper">
 				<div class="delivery-promotion">
-					<p class="delivery-promotion-p">БЕСПЛАТНАЯ</p>
+					<p class="delivery-promotion-p">БЫСТРАЯ</p>
 					<p class="delivery-promotion-p">ДОСТАВКА</p>
 					<p class="delivery-promotion-p">ПО ВСЕЙ</p>
 					<p class="delivery-promotion-p">АЛМАТЕ</p>
