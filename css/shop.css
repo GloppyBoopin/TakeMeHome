@@ -141,6 +141,10 @@
   	-o-transition : background 0.2s ease-in-out;
 }
 
+html[data-theme="dark"] .new-shop-item {
+	background: #222;
+}
+
 .new-shop-item:last-child {
 	margin-right: 0;
 }
@@ -152,7 +156,7 @@
 
 html[data-theme="dark"] .new-shop-item:hover,
 html[data-theme="dark"] .new-shop-item:active {
-	background: var(--link-hover-main);	
+	background: #181818;	
 }
 
 .new-shop-item:hover .new-shop-item-hidden,
@@ -168,7 +172,7 @@ html[data-theme="dark"] .new-shop-item:active {
 
 html[data-theme="dark"] .new-shop-item:hover .new-shop-item-image-wrapper,
 html[data-theme="dark"] .new-shop-item:active .new-shop-item-image-wrapper {
-	background: var(--link-hover-main);	
+	background: #181818;	
 }
 
 .new-shop-item:hover .new-shop-item-image,

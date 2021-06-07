@@ -140,12 +140,30 @@
 				</div>
 			</div>
 		</div>
-		<div class="add-author-info">
-			<h1 style="margin-top: 0; font-size: 20px;">Компания-поставщик:</h1>
-			<div class="add-author-name"><i class="fas fa-address-card"></i> Байден International </div>
-<!-- 			<div class="add-author-status">Частное лицо</div>
- -->			<div class="add-author-telephone">+7 (705) 313 47 88</div>
-			<div class="add-author-address">ул. Жарокова д. 322 кв. 153</div>
+		<div class="read-add-right-wrapper">
+			<div class="add-author-info">
+				<h1 style="margin-top: 0; font-size: 24px;">Бренд:</h1>
+				<div class="add-author-name"><i class="fas fa-address-card"></i> Байден International </div>
+				<div class="add-author-dimensions">
+					Размеры
+					<p class="add-author-height">Высота - 20 см</p>
+					<p class="add-author-width">Ширина - 40 см</p>
+					<p class="add-author-length">Длина - 80 см</p>
+					<p class="add-author-weight">Вес - 1.5 кг</p>
+				</div>
+			</div>
+			<div class="read-add-right-rating">
+				Рейтинг
+				<div class="rating average-rating">
+					<!-- Добавлять класс checked span'у, который отмечен по счёту снизу вверх -->
+					<p class="average-rating-number">3.9</p>
+					<span><label><i class="fas fa-star"></i></label></span>
+					<span class="checked"><label><i class="fas fa-star"></i></label></span>
+					<span><label><i class="fas fa-star"></i></label></span>
+					<span><label><i class="fas fa-star"></i></label></span>
+					<span><label><i class="fas fa-star"></i></label></span>
+				</div>
+			</div>
 		</div>
 	</div>
 </main>

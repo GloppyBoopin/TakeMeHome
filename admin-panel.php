@@ -187,6 +187,11 @@
 									<input type="hidden" name="">
 									<button class="business-request-approve-button">Подтвердить</button>
 								</form>
+								<form>
+									<!-- user id -->
+									<input type="hidden" name="">
+									<button class="business-request-decline-button">Отклонить</button>
+								</form>
 							</div>
 						</div>
 					</div>

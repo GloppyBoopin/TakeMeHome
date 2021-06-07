@@ -66,6 +66,7 @@ header {
 	border: 1px solid var(--border-yellow) /*#FFD642*/;
 	box-shadow: 0px 0px 5px rgba(152, 119, 0, 0.8);
 	border-radius: 7px;
+	transition: padding 0.1s ease-in-out;
 }
 
 .home-link:active {

@@ -238,6 +238,7 @@ html[data-theme="dark"] hr {
 	display: flex;
 	max-width: 200px;
 	font-size: 20px;
+	color: #efb700;
 	align-items: center;
 	overflow: hidden;
 }

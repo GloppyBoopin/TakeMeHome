@@ -78,7 +78,7 @@
 				<label class="form-input-label" for="pet-name">Имя питомца</label>
 			</div>
 			<div class="input-wrapper">
-				<textarea class="form-textarea" id="pet-description" placeholder="Введите текст..."></textarea>
+				<textarea class="form-textarea" id="pet-description" placeholder="Введите текст..." required></textarea>
 				<label class="form-input-label required" for="pet-description">
 					Описание
 					<p>Опишите своего питомца, его харакетр и особенности</p>
@@ -87,16 +87,22 @@
 			<div class="input-wrapper">
 				<div class="form-input-select">
 					<select id="pet-category-select">
-						<option>Option 1</option>
-						<option>Option 2</option>
-						<option>Option 3</option>
-						<option>Option 4</option>
-						<option>Option 5</option>
+						<option>Кошки и собаки</option>
+						<option>Птицы</option>
+						<option>Грызуны</option>
+						<option>Рыбы</option>
 					</select>
 				</div>
 				<label class="form-input-label required" for="pet-category-select">Категория</label>
 			</div>
 			<div class="input-wrapper">
+				<input class="form-input-text" id="pet-price" type="number" name="" value="0" required>
+				<label class="form-input-label required" for="pet-price">
+					Цена
+					<p>Оставьте нулевой для попадения в категорию "Бесплатно"</p>
+				</label>
+			</div>
+			<div class="input-wrapper" style="margin-top: 60px;">
 				<input type="checkbox" name="" id="lost-and-found-checkbox">
 				<label style="top: 0;" class="form-input-label" for="lost-and-found-checkbox">Объявление в бюро находок</label>
 			</div>
@@ -140,6 +146,32 @@
 				<script type="text/javascript" src="js/image-upload.js"></script>	
 				</div>
 			</div>
+		</div>
+
+		<hr>
+
+		<h1 class="main-h1">Ваши контактные данные</h1>
+		<p class="main-p required">Обязательные поля помечены</p>
+		<div class="form-wrapper">
+			<div class="input-wrapper">
+				<input class="form-input-text" id="reg-username" type="text" name="">
+				<label class="form-input-label required" for="reg-username">
+					Псевдоним/Имя
+				</label>
+			</div>
+			<div class="input-wrapper">
+				<input class="form-input-text" id="reg-tel" type="tel" name="" pattern="[+]{1}[0-9]{11}">
+				<label class="form-input-label required" for="reg-tel">Номер телефона</label>
+			</div>
+			<div class="input-wrapper">
+				<input class="form-input-text" id="reg-address" type="text" name="">
+				<label class="form-input-label required" for="reg-address">Адрес</label>
+			</div>
+			<div class="input-wrapper">
+				<input class="form-input-text" id="reg-address2" type="text" name="">
+				<label class="form-input-label" for="reg-address2">Доп. адрес</label>
+			</div>
+
 			<div class="input-wrapper">
 				<button class="form-button">Подать объявление</button>
 			</div>

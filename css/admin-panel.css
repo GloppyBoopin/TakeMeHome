@@ -218,8 +218,14 @@ html[data-theme="dark"] .business-request-link {
 .business-request-approve {
 	display: flex;
 	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 	width: 180px;
 	padding-left: 20px;
+}
+
+.business-request-approve form {
+	height: 40px;
 }
 
 .business-request-item {
@@ -250,7 +256,8 @@ html[data-theme="dark"] .business-request-item {
 	cursor: pointer;
 	outline: none;
 	border: 2px solid var(--border-yellow);
-	border-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
 	background: var(--white-gray-switch);
 	color: var(--text-color);
 	height: 40px;
@@ -258,7 +265,6 @@ html[data-theme="dark"] .business-request-item {
 	padding: 7px;
 	font-size: 20px;
 	font-weight: 600;
-	margin-top: 30px;
 
 	transition: background 0.2s ease-in-out;
 }
@@ -268,5 +274,31 @@ html[data-theme="dark"] .business-request-item {
 }
 
 html[data-theme="dark"] .business-request-approve-button:hover {
+	background: #222;
+}
+
+.business-request-decline-button {
+	display: block;
+	cursor: pointer;
+	outline: none;
+	border: 2px solid var(--border-yellow);
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background: var(--white-gray-switch);
+	color: var(--text-color);
+	height: 40px;
+	width: 160px;
+	padding: 7px;
+	font-size: 20px;
+	font-weight: 600;
+
+	transition: background 0.2s ease-in-out;
+}
+
+.business-request-decline-button:hover {
+	background: #eaeaea;
+}
+
+html[data-theme="dark"] .business-request-decline-button:hover {
 	background: #222;
 }
