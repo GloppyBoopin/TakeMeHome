@@ -15,7 +15,7 @@
 <body>
 	<header>
 		<div class="header-nav">
-			<a href="" class="home-link">
+			<a href="index.php" class="home-link">
 				<img src="images/logo-1.png" class="logo" alt="logo">
 				<span class="name"><b>TakeMeHome</b></span>
 			</a>
@@ -25,12 +25,12 @@
 				+7(777)221-66-66
 				<!-- Показывать один из этих блоков только если пользователь админ или курьер соответственно -->
 				<div class="header-admin-courier-link">
-					<a href="">
+					<a href="admin-panel.php">
 						<i class="fas fa-user-shield"></i> Админ
 					</a>
 				</div>
 				<div class="header-admin-courier-link">
-					<a href="">
+					<a href="courier_menu.php">
 						<i class="fas fa-id-badge"></i> Курьер
 					</a>
 				</div>
@@ -44,25 +44,25 @@
 			</div>
 			<script type="text/javascript" src="js/theme-switch.js"></script>
 			<div class="header-nav-icons-wrapper">
-				<a href="" class="header-nav-icon-link">
+				<a href="profile.php" class="header-nav-icon-link">
 					<i class="header-nav-icon far fa-user"></i>
 					<p>Профиль</p>
 				</a>
-				<a href="" class="header-nav-icon-link">
+				<a href="favorite.php" class="header-nav-icon-link">
 					<i class="header-nav-icon far fa-heart"></i>
 					<p>Избранное</p>
 				</a>
-				<a href="" class="header-nav-icon-link">
+				<a href="shopping_basket.php" class="header-nav-icon-link">
 					<i class="header-nav-icon fas fa-shopping-basket"></i>
 					<p>Корзина</p>
 					<p class="shopping-bag-item-count">1</p> <!-- Отображать если в корзине есть товары -->
 				</a>
 			</div>
 			<div class="header-nav-login-reg">
-				<a href="" class="header-nav-login-reg-link">Вход | Регистрация</a>
+				<a href="login_reg.php" class="header-nav-login-reg-link">Вход | Регистрация</a>
 			</div>
 		</div>
-		<a href="" class="link-ad-addesk">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
+		<a href="post_add.php" class="link-ad-addesk">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
 	</header>
 <main>
 	<p class="search-clarifier">Поиск по товарам <i class="fas fa-level-down-alt"></i></p>
@@ -76,7 +76,7 @@
 	<p class="new-shop-items-p">НОВЫЕ ТОВАРЫ</p>
 	<div class="new-shop-items">
 		<div class="new-shop-items-container">
-			<a href="" class="new-shop-item">
+			<a href="read_shop_item.php" class="new-shop-item">
 				<div class="new-shop-item-image-wrapper">
 					<img src="images/fishes-cut.png" class="new-shop-item-image">
 				</div>
@@ -87,7 +87,7 @@
 					<p class="new-shop-item-description">Описание (вес, цена и т.д.)</p>
 				</div>
 			</a>
-			<a href="" class="new-shop-item">
+			<a href="read_shop_item.php" class="new-shop-item">
 				<div class="new-shop-item-image-wrapper">
 					<img src="images/fishes-cut.png" class="new-shop-item-image">
 				</div>
@@ -96,7 +96,7 @@
 					<p class="new-shop-item-description">Описание (вес, цена и т.д.)</p>
 				</div>
 			</a>
-			<a href="" class="new-shop-item">
+			<a href="read_shop_item.php" class="new-shop-item">
 				<div class="new-shop-item-image-wrapper">
 					<img src="images/cat.png" class="new-shop-item-image">
 				</div>
@@ -105,7 +105,7 @@
 					<p class="new-shop-item-description">Описание (вес, цена и т.д.)</p>
 				</div>
 			</a>
-			<a href="" class="new-shop-item">
+			<a href="read_shop_item.php" class="new-shop-item">
 				<div class="new-shop-item-image-wrapper">
 					<img src="images/dog.png" class="new-shop-item-image">
 				</div>
@@ -126,11 +126,11 @@
 			<!-- shop-item в цикл -->
 			<div class="shop-item">
 				<!-- Ссылка на страницу товара -->
-				<a href="">
+				<a href="read_shop_item.php">
 					<span class="link-span"></span>
 				</a>
 				<!-- Тоже ссылка на страницу товара -->
-				<a class="shop-item-read-link" href="">
+				<a class="shop-item-read-link" href="read_shop_item.php">
 					ПОДРОБНЕЕ
 				</a>
 				<div class="shop-item-image-container">
@@ -162,11 +162,11 @@
 
 			<div class="shop-item">
 				<!-- Ссылка на страницу товара -->
-				<a href="">
+				<a href="read_shop_item.php">
 					<span class="link-span"></span>
 				</a>
 				<!-- Тоже ссылка на страницу товара -->
-				<a class="shop-item-read-link" href="">
+				<a class="shop-item-read-link" href="read_shop_item.php">
 					ПОДРОБНЕЕ
 				</a>
 				<div class="shop-item-image-container">

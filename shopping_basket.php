@@ -14,7 +14,7 @@
 <body>
 <header>
 	<div class="header-nav">
-		<a href="" class="home-link">
+		<a href="index.php" class="home-link">
 			<img src="images/logo-1.png" class="logo" alt="logo">
 			<span class="name"><b>TakeMeHome</b></span>
 		</a>
@@ -24,12 +24,12 @@
 			+7(777)221-66-66
 			<!-- Показывать один из этих блоков только если пользователь админ или курьер соответственно -->
 			<div class="header-admin-courier-link">
-				<a href="">
+				<a href="admin-panel.php">
 					<i class="fas fa-user-shield"></i> Админ
 				</a>
 			</div>
 			<div class="header-admin-courier-link">
-				<a href="">
+				<a href="courier_menu.php">
 					<i class="fas fa-id-badge"></i> Курьер
 				</a>
 			</div>
@@ -40,7 +40,7 @@
 				<input class="search" type="text" name="">
 				<button class="search-button"><i class="fa fa-search"></i></button>
 			</form>
-			<a href="" class="link-ad">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
+			<a href="post_add.php" class="link-ad">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
 		</div>
 		<div class="theme-switch-wrapper">
 		    <input type="checkbox" id="theme-switch" name="theme" />
@@ -49,17 +49,17 @@
 		</div>
 		<script type="text/javascript" src="js/theme-switch.js"></script>
 		<div class="header-nav-icons-wrapper">
-			<a href="" class="header-nav-icon-link">
+			<a href="profile.php" class="header-nav-icon-link">
 				<i class="header-nav-icon far fa-user"></i>
 				<p>Профиль</p>
 			</a>
-			<a href="" class="header-nav-icon-link">
+			<a href="favorite.php" class="header-nav-icon-link">
 				<i class="header-nav-icon far fa-heart"></i>
 				<p>Избранное</p>
 			</a>
 		</div>
 		<div class="header-nav-login-reg">
-			<a href="" class="header-nav-login-reg-link">Вход | Регистрация</a>
+			<a href="login_reg.php" class="header-nav-login-reg-link">Вход | Регистрация</a>
 		</div>
 	</div>
 </header>
@@ -83,7 +83,7 @@
 			</div>
 			<div class="shop-item">
 				<!-- Ссылка на страницу товара -->
-				<a href="">
+				<a href="read_shop_item.php">
 					<span class="link-span"></span>
 				</a>
 				<div class="shop-item-image-container">
@@ -108,7 +108,7 @@
 			</div>
 			<div class="shop-item">
 				<!-- Ссылка на страницу товара -->
-				<a href="">
+				<a href="read_shop_item.php">
 					<span class="link-span"></span>
 				</a>
 				<div class="shop-item-image-container">

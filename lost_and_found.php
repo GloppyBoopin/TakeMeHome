@@ -15,7 +15,7 @@
 <body>
 	<header>
 		<div class="header-nav">
-			<a href="" class="home-link">
+			<a href="index.php" class="home-link">
 				<img src="images/logo-1.png" class="logo" alt="logo">
 				<span class="name"><b>TakeMeHome</b></span>
 			</a>
@@ -25,12 +25,12 @@
 				+7(777)221-66-66
 				<!-- Показывать один из этих блоков только если пользователь админ или курьер соответственно -->
 				<div class="header-admin-courier-link">
-					<a href="">
+					<a href="admin-panel.php">
 						<i class="fas fa-user-shield"></i> Админ
 					</a>
 				</div>
 				<div class="header-admin-courier-link">
-					<a href="">
+					<a href="courier_menu.php">
 						<i class="fas fa-id-badge"></i> Курьер
 					</a>
 				</div>
@@ -44,25 +44,25 @@
 			</div>
 			<script type="text/javascript" src="js/theme-switch.js"></script>
 			<div class="header-nav-icons-wrapper">
-				<a href="" class="header-nav-icon-link">
+				<a href="profile.php" class="header-nav-icon-link">
 					<i class="header-nav-icon far fa-user"></i>
 					<p>Профиль</p>
 				</a>
-				<a href="" class="header-nav-icon-link">
+				<a href="favorite.php" class="header-nav-icon-link">
 					<i class="header-nav-icon far fa-heart"></i>
 					<p>Избранное</p>
 				</a>
-				<a href="" class="header-nav-icon-link">
+				<a href="shopint_basket.php" class="header-nav-icon-link">
 					<i class="header-nav-icon fas fa-shopping-basket"></i>
 					<p>Корзина</p>
 					<p class="shopping-bag-item-count">1</p> <!-- Отображать если в корзине есть товары -->
 				</a>
 			</div>
 			<div class="header-nav-login-reg">
-				<a href="" class="header-nav-login-reg-link">Вход | Регистрация</a>
+				<a href="login_reg.php" class="header-nav-login-reg-link">Вход | Регистрация</a>
 			</div>
 		</div>
-		<a href="" class="link-ad-addesk">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
+		<a href="post_add.php" class="link-ad-addesk">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
 
 	</header>
 <main>
@@ -116,7 +116,7 @@
 		</div>
 	</div>
 	<div class="addesk-items">
-		<a href="" class="addesk-item-link">
+		<a href="read_add.php" class="addesk-item-link">
 			<div class="addesk-item">
 				<div class="addesk-item-image-wrapper left" style="">
 					<img src="images/dog.png" alt="Фотография" class="addesk-item-image"> <!-- Если нет фотографий можно поставить филлер -->

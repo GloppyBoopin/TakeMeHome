@@ -23,7 +23,7 @@
 <body>
 	<header>
 		<div class="header-nav">
-			<a href="" class="home-link">
+			<a href="index.php" class="home-link">
 				<img src="images/logo-1.png" class="logo" alt="logo">
 				<span class="name"><b>TakeMeHome</b></span>
 			</a>
@@ -38,7 +38,7 @@
 					<input class="search" type="text" name="">
 					<button class="search-button"><i class="fa fa-search"></i></button>
 				</form>
-				<a href="" class="link-ad">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
+				<a href="post_add.php" class="link-ad">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
 			</div>
 			<div class="theme-switch-wrapper">
 			    <input type="checkbox" id="theme-switch" style="border: unset !important;" name="theme" />
@@ -47,16 +47,16 @@
 			</div>
 			<script type="text/javascript" src="js/theme-switch.js"></script>
 			<div class="header-nav-icons-wrapper">
-				<a href="" class="header-nav-icon-link">
+				<a href="profile.php" class="header-nav-icon-link">
 					<!-- Скрыть если пользователь НЕ вошёл в аккаунт -->
 					<i class="header-nav-icon far fa-user"></i>
 					<p>Профиль</p>
 				</a>
-				<a href="" class="header-nav-icon-link">
+				<a href="favorite.php" class="header-nav-icon-link">
 					<i class="header-nav-icon far fa-heart"></i>
 					<p>Избранное</p>
 				</a>
-				<a href="" class="header-nav-icon-link">
+				<a href="shopping_basket.php" class="header-nav-icon-link">
 					<i class="header-nav-icon fas fa-shopping-basket"></i>
 					<p>Корзина</p>
 					<p class="shopping-bag-item-count">1</p> <!-- Отображать если в корзине есть товары -->

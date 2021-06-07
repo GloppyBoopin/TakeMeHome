@@ -17,7 +17,7 @@
 <body>
 	<header>
 		<div class="header-nav">
-			<a href="" class="home-link">
+			<a href="index.php" class="home-link">
 				<img src="images/logo-1.png" class="logo" alt="logo">
 				<span class="name"><b>TakeMeHome</b></span>
 			</a>
@@ -27,12 +27,12 @@
 				+7(777)221-66-66
 				<!-- Показывать один из этих блоков только если пользователь админ или курьер соответственно -->
 				<div class="header-admin-courier-link">
-					<a href="">
+					<a href="admin-panel.php">
 						<i class="fas fa-user-shield"></i> Админ
 					</a>
 				</div>
 				<div class="header-admin-courier-link">
-					<a href="">
+					<a href="courier_menu.php">
 						<i class="fas fa-id-badge"></i> Курьер
 					</a>
 				</div>
@@ -43,7 +43,7 @@
 					<input class="search" type="text" name="">
 					<button class="search-button"><i class="fa fa-search"></i></button>
 				</form>
-				<a href="" class="link-ad">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
+				<a href="post_add.php" class="link-ad">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
 			</div>
 			<div class="theme-switch-wrapper">
 			    <input type="checkbox" id="theme-switch" name="theme" />
@@ -52,16 +52,16 @@
 			</div>
 			<script type="text/javascript" src="js/theme-switch.js"></script>
 			<div class="header-nav-icons-wrapper">
-				<a href="" class="header-nav-icon-link">
+				<a href="profile.php" class="header-nav-icon-link">
 					<!-- Скрыть если пользователь НЕ вошёл в аккаунт -->
 					<i class="header-nav-icon far fa-user"></i>
 					<p>Профиль</p>
 				</a>
-				<a href="" class="header-nav-icon-link">
+				<a href="favorite.php" class="header-nav-icon-link">
 					<i class="header-nav-icon far fa-heart"></i>
 					<p>Избранное</p>
 				</a>
-				<a href="" class="header-nav-icon-link">
+				<a href="shopping_basket.php" class="header-nav-icon-link">
 					<i class="header-nav-icon fas fa-shopping-basket"></i>
 					<p>Корзина</p>
 					<p class="shopping-bag-item-count">1</p> <!-- Отображать если в корзине есть товары -->
@@ -69,7 +69,7 @@
 			</div>
 			<div class="header-nav-login-reg">
 				<!-- Скрыть если пользователь вошёл в аккаунт -->
-				<a href="" class="header-nav-login-reg-link">Вход | Регистрация</a>
+				<a href="login_reg.php" class="header-nav-login-reg-link">Вход | Регистрация</a>
 			</div>
 		</div>
 	</header>
@@ -82,22 +82,22 @@
 		<div class="site-nav">
 			<div class="site-nav-link-container">
 				<!-- shop link -->
-				<a href="" class="site-nav-link">
+				<a href="shop.php" class="site-nav-link">
 					<img src="images/shopping-bag.png" class="site-nav-image">
 					<p class="site-nav-p">МАГАЗИН</p>
 				</a>
 				<!-- free ads link -->
-				<a href="" class="site-nav-link">
+				<a href="addesk.php" class="site-nav-link">
 					<img src="images/home.png" class="site-nav-image">
 					<p class="site-nav-p">ДАРОМ</p>
 				</a>
 				<!-- ads link -->
-				<a href="" class="site-nav-link">
+				<a href="addesk.php" class="site-nav-link">
 					<img src="images/pawprint.png" class="site-nav-image">
 					<p class="site-nav-p">ПРОДАЖА</p>
 				</a>
 				<!-- lost and found link -->
-				<a href="" class="site-nav-link">
+				<a href="lost_and_found.php" class="site-nav-link">
 					<img src="images/pet-house.png" class="site-nav-image">
 					<p class="site-nav-p" style="margin: 5px -25px;">БЮРО НАХОДОК</p>
 				</a>
@@ -105,13 +105,13 @@
 		</div>
 		<div class="shop-nav">
 			<div class="filler-nav">
-				<a href="" class="filler-nav-item">
+				<a href="shop.php" class="filler-nav-item">
 					<img src="images/price-tag.png" class="filler-nav-img">
 					<p class="filler-nav-p">СКИДКИ И АКЦИИ</p>
 				</a>
-				<a href="" class="filler-nav-item">
+				<a href="shop.php" class="filler-nav-item">
 					<img src="images/price-tag.png" class="filler-nav-img">
-					<p class="filler-nav-p">ПОПУЛЯРНЫЕ ТОВАРЫ</p>
+					<p class="filler-nav-p">НОВЫЕ ТОВАРЫ</p>
 				</a>
 				<a href="" class="filler-nav-item">
 					<img src="images/price-tag.png" class="filler-nav-img">
@@ -132,12 +132,12 @@
 						<div class="categories-nav-nav">
 							<p>ТОВАРЫ ДЛЯ ДОМАШНИХ ЖИВОТНЫХ</p>
 							<p>
-								<a href="" class="categories-nav-link">Корм</a> | 
-								<a href="" class="categories-nav-link">Игрушки</a> | 
-								<a href="" class="categories-nav-link">Гигиена</a> | 
-								<a href="" class="categories-nav-link">Уход</a> | 
-								<a href="" class="categories-nav-link">Прочее</a> | 
-								<a href="" class="categories-nav-link">Все товары</a>
+								<a href="shop.php" class="categories-nav-link">Корм</a> | 
+								<a href="shop.php" class="categories-nav-link">Игрушки</a> | 
+								<a href="shop.php" class="categories-nav-link">Гигиена</a> | 
+								<a href="shop.php" class="categories-nav-link">Уход</a> | 
+								<a href="shop.php" class="categories-nav-link">Прочее</a> | 
+								<a href="shop.php" class="categories-nav-link">Все товары</a>
 							</p>
 						</div>
 					</div>
@@ -146,11 +146,11 @@
 						<div class="categories-nav-nav">
 							<p>ТОВАРЫ ДЛЯ РЫБ</p>
 							<p>
-								<a href="" class="categories-nav-link">Корм</a> | 
-								<a href="" class="categories-nav-link">Аквариумы</a> | 
-								<a href="" class="categories-nav-link">Украшения</a> | 
-								<a href="" class="categories-nav-link">Прочее</a> | 
-								<a href="" class="categories-nav-link">Все товары</a>
+								<a href="shop.php" class="categories-nav-link">Корм</a> | 
+								<a href="shop.php" class="categories-nav-link">Аквариумы</a> | 
+								<a href="shop.php" class="categories-nav-link">Украшения</a> | 
+								<a href="shop.php" class="categories-nav-link">Прочее</a> | 
+								<a href="shop.php" class="categories-nav-link">Все товары</a>
 							</p>
 						</div>
 					</div>
@@ -159,12 +159,12 @@
 						<div class="categories-nav-nav">
 							<p>ТОВАРЫ ДЛЯ ГРЫЗУНОВ</p>
 							<p>
-								<a href="" class="categories-nav-link">Корм</a> |&nbsp;
-								<a href="" class="categories-nav-link">Клетки</a> | 
-								<a href="" class="categories-nav-link">Игрушки</a> | 
-								<a href="" class="categories-nav-link">Уход</a> | 
-								<a href="" class="categories-nav-link">Прочее</a> | 
-								<a href="" class="categories-nav-link">Все товары</a>
+								<a href="shop.php" class="categories-nav-link">Корм</a> |&nbsp;
+								<a href="shop.php" class="categories-nav-link">Клетки</a> | 
+								<a href="shop.php" class="categories-nav-link">Игрушки</a> | 
+								<a href="shop.php" class="categories-nav-link">Уход</a> | 
+								<a href="shop.php" class="categories-nav-link">Прочее</a> | 
+								<a href="shop.php" class="categories-nav-link">Все товары</a>
 							</p>
 						</div>
 					</div>
@@ -173,12 +173,12 @@
 						<div class="categories-nav-nav">
 							<p>ТОВАРЫ ДЛЯ ПТИЦ</p>
 							<p>
-								<a href="" class="categories-nav-link">Корм</a> |&nbsp;
-								<a href="" class="categories-nav-link">Клетки</a> | 
-								<a href="" class="categories-nav-link">Игрушки</a> | 
-								<a href="" class="categories-nav-link">Уход</a> | 
-								<a href="" class="categories-nav-link">Прочее</a> | 
-								<a href="" class="categories-nav-link">Все товары</a>
+								<a href="shop.php" class="categories-nav-link">Корм</a> |&nbsp;
+								<a href="shop.php" class="categories-nav-link">Клетки</a> | 
+								<a href="shop.php" class="categories-nav-link">Игрушки</a> | 
+								<a href="shop.php" class="categories-nav-link">Уход</a> | 
+								<a href="shop.php" class="categories-nav-link">Прочее</a> | 
+								<a href="shop.php" class="categories-nav-link">Все товары</a>
 							</p>
 						</div>
 					</div>
