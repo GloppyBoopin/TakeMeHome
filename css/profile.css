@@ -84,7 +84,7 @@ html[data-theme="dark"] .active {
 	color: unset !important;
 	font-size: 30px !important;
 	margin-top: 0 !important;
-	margin-bottom: 20px !important;
+	margin: 20px 0 !important;
 }
 
 .main-p {

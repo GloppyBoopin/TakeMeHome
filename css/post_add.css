@@ -23,6 +23,10 @@ hr {
 	margin: 0 50px;
 }
 
+html[data-theme="dark"] hr {
+	background: var(--link-hover-main);
+}
+
 /*------------------------------------------------------form-------------------------------------------------*/
 
 .form-wrapper {
@@ -144,6 +148,14 @@ select::-ms-expand {
 
 option {
 	background: var(--white-gray-switch);
+}
+
+option:first-child {
+	color: rgb(0, 0, 0, 0.4);
+}
+
+html[data-theme="dark"] option:first-child {
+	color: rgb(255, 255, 255, 0.4);
 }
 
 .form-input-select {

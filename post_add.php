@@ -10,7 +10,6 @@
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 
 	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-	
 </head>
 <body>
 	<header>
@@ -86,8 +85,10 @@
 			</div>
 			<div class="input-wrapper">
 				<div class="form-input-select">
-					<select id="pet-category-select">
-						<option>Кошки и собаки</option>
+					<select id="pet-category-select" onchange="showDiv(this)">
+						<option>Выберите вариант...</option>
+						<option value="1">Кошки</option>
+						<option>Cобаки</option>
 						<option>Птицы</option>
 						<option>Грызуны</option>
 						<option>Рыбы</option>
@@ -95,6 +96,57 @@
 				</div>
 				<label class="form-input-label required" for="pet-category-select">Категория</label>
 			</div>
+
+			<script type="text/javascript">
+				function showDiv(element){
+					if (document.getElementById('pet-category-select').value == '1'){
+						document.getElementById('hidden-1').style.display = 'block';
+						document.getElementById('hidden-2').style.display = 'block';
+						document.getElementById('hidden-3').style.display = 'block';
+						document.getElementById('hidden-4').style.display = 'block';
+					}
+					else {
+						document.getElementById('hidden-1').style.display = 'none';
+						document.getElementById('hidden-2').style.display = 'none';
+						document.getElementById('hidden-3').style.display = 'none';
+						document.getElementById('hidden-4').style.display = 'none';
+					}
+				}
+			</script>
+
+			<div class="input-wrapper hidden" style="display: none;" id="hidden-1">
+				<div class="form-input-select">
+					<select id="cat-select">
+						<option>Выберите вариант...</option>
+						<option>Мейн-кун</option>
+						<option>Скоттиш страйт</option>
+						<option>Скоттиш фолд</option>
+						<option>Русская голубая</option>
+						<option>Анатолийская кошка</option>
+						<option>...</option>
+					</select>
+				</div>
+				<label class="form-input-label required" for="cat-select">Порода</label>
+			</div>
+			<div class="input-wrapper hidden" style="display: none;" id="hidden-2">
+				<div class="form-input-select">
+					<select id="cat-select">
+						<option>Выберите вариант...</option>
+						<option>Мальчик</option>
+						<option>Девочка</option>
+					</select>
+				</div>
+				<label class="form-input-label required" for="cat-select">Пол</label>
+			</div>
+			<div class="input-wrapper hidden" style="margin-top: 10px; display: none;" id="hidden-3">
+				<input type="checkbox" name="" id="cat-checkbox">
+				<label class="form-input-label required" for="cat-checkbox">Прививки</label>
+			</div>
+			<div class="input-wrapper hidden" style="margin-top: 10px; display: none;" id="hidden-4">
+				<input type="checkbox" name="" id="cat-checkbox">
+				<label class="form-input-label required" for="cat-checkbox">Стерилизация</label>
+			</div>
+
 			<div class="input-wrapper">
 				<input class="form-input-text" id="pet-price" type="number" name="" value="0" required>
 				<label class="form-input-label required" for="pet-price">
@@ -178,6 +230,33 @@
 		</div>
 	</form>
 </main>
-<footer></footer>
+<footer>
+		<div class="footer-info">
+			<h1 class="footer-h1">О нас</h1>
+			<p><b>TakeMeHome</b> - революция в мире торговых площадок и сайтов о домашних животных. Наш сайт совмещает в себе торговую площадку, где вы можете продать/купить/взять даром домашнее животное, интернет магазин содержащий широкий ассортимент продуктов для братьев меньших и бюро находок, где вы можете разместить объявление о пропавшем или найденном домашнем животном.</p>
+			<p>Купить товар в магазине можно двумя способами - самовывоз или заказать доставку. Чтобы взять доставку, вам необходимо выбрать соответствующий вариант при оформлении заказа. Доставка на товар любого количества стоит 500 тенге. Самовывоз по адресу ул. Гагарина д. 311а</p>
+		</div>
+		<div class="footer-working-hours">
+			<h1 class="footer-h1">Время работы</h1>
+			<div class="working-hours">
+				<img src="images/clock.png" class="working-hours-img">
+				<div class="working-hours-list">
+					<p>Пн-пт - 09:00 - 18:00</p>
+					<p>Сб - 10:00 - 16:00</p>
+					<p>Вс - выходной</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer-contacts">
+			<h1 class="footer-h1">Наши контакты</h1>
+
+			<h4>+7(800)555-35-35</h4>
+			<p>Служба доставки</p>
+			<h4>+7(777)221-66-66</h4>
+			<p>Администрация</p>
+			<h4>Физический адрес</h4>
+			<p>ул. Гагарина д. 311а</p>
+		</div>
+	</footer>
 </body>
 </html>
