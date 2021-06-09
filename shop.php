@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="css/variables.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/shop.css">
+	<link rel="stylesheet" type="text/css" href="css/post_add.css">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
@@ -78,40 +79,40 @@
 		<div class="new-shop-items-container">
 			<a href="read_shop_item.php" class="new-shop-item">
 				<div class="new-shop-item-image-wrapper">
-					<img src="images/fishes-cut.png" class="new-shop-item-image">
+					<img src="images/kitekat.jpg" class="new-shop-item-image">
 				</div>
 				<div class="new-shop-item-hidden">
 					<!-- Если что-то будент не так отображаться поиграй с маржинами -->
-					<p class="new-shop-item-name">Название</p>
+					<p class="new-shop-item-name">Kitekat®, 350 гр.</p>
 					<!-- В описании максимум 2 строчки -->
-					<p class="new-shop-item-description">Описание (вес, цена и т.д.)</p>
+					<p class="new-shop-item-description">Сухой корм для котов мясной пир</p>
 				</div>
 			</a>
 			<a href="read_shop_item.php" class="new-shop-item">
 				<div class="new-shop-item-image-wrapper">
-					<img src="images/fishes-cut.png" class="new-shop-item-image">
+					<img src="images/perfect-fit.png" class="new-shop-item-image">
 				</div>
 				<div class="new-shop-item-hidden">
-					<p class="new-shop-item-name">Название</p>
-					<p class="new-shop-item-description">Описание (вес, цена и т.д.)</p>
+					<p class="new-shop-item-name">Perfect Fit, 650 гр.</p>
+					<p class="new-shop-item-description">Корм для стерилизованных кошек с говядиной</p>
 				</div>
 			</a>
 			<a href="read_shop_item.php" class="new-shop-item">
 				<div class="new-shop-item-image-wrapper">
-					<img src="images/cat.png" class="new-shop-item-image">
+					<img src="images/cat-house.jpg" class="new-shop-item-image">
 				</div>
 				<div class="new-shop-item-hidden">
-					<p class="new-shop-item-name">Название</p>
-					<p class="new-shop-item-description">Описание (вес, цена и т.д.)</p>
+					<p class="new-shop-item-name">Домик-когтеточка "Энди" для кошек</p>
+					<p class="new-shop-item-description">Размеры: 30x50x65 см.</p>
 				</div>
 			</a>
 			<a href="read_shop_item.php" class="new-shop-item">
 				<div class="new-shop-item-image-wrapper">
-					<img src="images/dog.png" class="new-shop-item-image">
+					<img src="images/dog-bed.jpg" class="new-shop-item-image">
 				</div>
 				<div class="new-shop-item-hidden">
-					<p class="new-shop-item-name">Название</p>
-					<p class="new-shop-item-description">Описание (вес, цена и т.д.)</p>
+					<p class="new-shop-item-name">Лежак для собак и кошек Ferplast Dandy</p>
+					<p class="new-shop-item-description">Размеры: 110x70x23 см.</p>
 				</div>
 			</a>
 		</div>
@@ -121,7 +122,82 @@
 		<button class="list-grid-switch" id="list"><i class="fas fa-th-list"></i> Списком</button>
 	</div>
 	<div class="shop-items">
-		<div class="shop-items-filter"></div>
+		<form>
+			<div class="shop-items-filters">
+				<h1 style="text-align: center; margin: 0;">Фильтры</h1>
+				<div class="shop-items-filter">
+					<h4>Цена</h4>
+					<div style="display: flex; justify-content: space-between;">
+						<input type="number" class="form-input-text form-input-number" name="" placeholder="от">
+						<input type="number" class="form-input-text form-input-number" name="" placeholder="до">
+					</div>
+				</div>
+				<div class="shop-items-filter">
+					<h4>Для кого</h4>
+					<div class="shop-items-filter-checkbox-wrapper">
+						<input type="checkbox" name="" id="lost-and-found-checkbox">
+						Кошки
+					</div>
+					<div class="shop-items-filter-checkbox-wrapper">
+						<input type="checkbox" name="" id="lost-and-found-checkbox">
+						Собаки
+					</div>
+					<div class="shop-items-filter-checkbox-wrapper">
+						<input type="checkbox" name="" id="lost-and-found-checkbox">
+						Птицы
+					</div>
+					<div class="shop-items-filter-checkbox-wrapper">
+						<input type="checkbox" name="" id="lost-and-found-checkbox">
+						Грызуны
+					</div>
+					<div class="shop-items-filter-checkbox-wrapper">
+						<input type="checkbox" name="" id="lost-and-found-checkbox">
+						Рыбы
+					</div>
+				</div>
+				<div class="shop-items-filter">
+					<h4>Категория</h4>
+					<div class="shop-items-filter-checkbox-wrapper">
+						<input type="checkbox" name="" id="lost-and-found-checkbox">
+						Корм
+					</div>
+					<div class="shop-items-filter-checkbox-wrapper">
+						<input type="checkbox" name="" id="lost-and-found-checkbox">
+						Лежанки
+					</div>
+					<div class="shop-items-filter-checkbox-wrapper">
+						<input type="checkbox" name="" id="lost-and-found-checkbox">
+						Клетки
+					</div>
+					<div class="shop-items-filter-checkbox-wrapper">
+						<input type="checkbox" name="" id="lost-and-found-checkbox">
+						Аквариумы
+					</div>
+				</div>
+				<div class="shop-items-filter">
+					<h4>Бренд</h4>
+					<div class="shop-items-filter-checkbox-wrapper">
+						<input type="checkbox" name="" id="lost-and-found-checkbox">
+						Royal Canin
+					</div>
+					<div class="shop-items-filter-checkbox-wrapper">
+						<input type="checkbox" name="" id="lost-and-found-checkbox">
+						Ferplast
+					</div>
+					<div class="shop-items-filter-checkbox-wrapper">
+						<input type="checkbox" name="" id="lost-and-found-checkbox">
+						Triol
+					</div>
+					<div class="shop-items-filter-checkbox-wrapper">
+						<input type="checkbox" name="" id="lost-and-found-checkbox">
+						Inter-Zoo
+					</div>
+				</div>
+				<div class="shop-items-filter">
+					<button class="form-button">Применить</button>
+				</div>
+			</div>
+		</form>
 		<div class="shop-items-container">
 			<!-- shop-item в цикл -->
 			<div class="shop-item">
@@ -135,8 +211,8 @@
 				</a>
 				<div class="shop-item-image-container">
 					<!-- Сюда картинку и название -->
-					<img src="images/hamsters-cut.png" class="shop-item-image">
-					<p class="shop-item-image-name">Miska</p>
+					<img src="images/perfect-fit.png" class="shop-item-image">
+					<p class="shop-item-image-name">Perfect Fit, 650 гр.</p>
 					<div class="rating">
 						<!-- Добавлять класс checked span'у, который отмечен по счёту снизу вверх -->
 						<span><label><i class="fas fa-star"></i></label></span>
@@ -171,8 +247,8 @@
 				</a>
 				<div class="shop-item-image-container">
 					<!-- Сюда картинку и название -->
-					<img src="images/cat.png" class="shop-item-image">
-					<p class="shop-item-image-name">Lezhanka</p>
+					<img src="images/dog-bed.jpg" class="shop-item-image">
+					<p class="shop-item-image-name">Лежак для собак и кошек Ferplast Dandy</p>
 					<div class="rating">
 						<!-- Добавлять класс checked span'у, который отмечен по счёту снизу вверх -->
 						<span><label><i class="fas fa-star"></i></label></span>
@@ -195,6 +271,78 @@
 					</form>
 				</div>
 			</div>
+
+			<div class="shop-item">
+				<!-- Ссылка на страницу товара -->
+				<a href="read_shop_item.php">
+					<span class="link-span"></span>
+				</a>
+				<!-- Тоже ссылка на страницу товара -->
+				<a class="shop-item-read-link" href="read_shop_item.php">
+					ПОДРОБНЕЕ
+				</a>
+				<div class="shop-item-image-container">
+					<!-- Сюда картинку и название -->
+					<img src="images/cat-house.jpg" class="shop-item-image">
+					<p class="shop-item-image-name">Домик-когтеточка "Энди" для кошек</p>
+					<div class="rating">
+						<!-- Добавлять класс checked span'у, который отмечен по счёту снизу вверх -->
+						<span><label><i class="fas fa-star"></i></label></span>
+						<span><label><i class="fas fa-star"></i></label></span>
+						<span class="checked"><label><i class="fas fa-star"></i></label></span>
+						<span><label><i class="fas fa-star"></i></label></span>
+						<span><label><i class="fas fa-star"></i></label></span>
+					</div>
+				</div>
+				<div class="shop-item-form-price-container">
+					<!-- Цена и добавление в корзину с количеством -->
+					<p class="shop-item-price left">80 000 т</p>
+					<form class="shop-item-form right">
+						<button type="submit" class="shop-item-cart-button">Добавить в <i class="fa fa-shopping-basket"></i></button>
+						<div class="input-number-wrapper">
+							<button type="button" onclick="this.parentNode.querySelector('.input-number').stepDown()" class="plus-minus-button minus-button">-</button>
+							<input class="input-number" type="number" min="1" value="1" max="10" name="">
+							<button type="button" onclick="this.parentNode.querySelector('.input-number').stepUp()" class="plus-minus-button plus-button">+</button>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<div class="shop-item">
+				<!-- Ссылка на страницу товара -->
+				<a href="read_shop_item.php">
+					<span class="link-span"></span>
+				</a>
+				<!-- Тоже ссылка на страницу товара -->
+				<a class="shop-item-read-link" href="read_shop_item.php">
+					ПОДРОБНЕЕ
+				</a>
+				<div class="shop-item-image-container">
+					<!-- Сюда картинку и название -->
+					<img src="images/bird-cage.jpg" class="shop-item-image">
+					<p class="shop-item-image-name">Клетка для попугаев Ferplast Gala</p>
+					<div class="rating">
+						<!-- Добавлять класс checked span'у, который отмечен по счёту снизу вверх -->
+						<span class="checked"><label><i class="fas fa-star"></i></label></span>
+						<span><label><i class="fas fa-star"></i></label></span>
+						<span><label><i class="fas fa-star"></i></label></span>
+						<span><label><i class="fas fa-star"></i></label></span>
+						<span><label><i class="fas fa-star"></i></label></span>
+					</div>
+				</div>
+				<div class="shop-item-form-price-container">
+					<!-- Цена и добавление в корзину с количеством -->
+					<p class="shop-item-price left">7 283 т</p>
+					<form class="shop-item-form right">
+						<button type="submit" class="shop-item-cart-button">Добавить в <i class="fa fa-shopping-basket"></i></button>
+						<div class="input-number-wrapper">
+							<button type="button" onclick="this.parentNode.querySelector('.input-number').stepDown()" class="plus-minus-button minus-button">-</button>
+							<input class="input-number" type="number" min="1" value="1" max="10" name="">
+							<button type="button" onclick="this.parentNode.querySelector('.input-number').stepUp()" class="plus-minus-button plus-button">+</button>
+						</div>
+					</form>
+				</div>
+			</div>
 		</div>
 	</div>
 </main>
@@ -202,7 +350,7 @@
 		<div class="footer-info">
 			<h1 class="footer-h1">О нас</h1>
 			<p><b>TakeMeHome</b> - революция в мире торговых площадок и сайтов о домашних животных. Наш сайт совмещает в себе торговую площадку, где вы можете продать/купить/взять даром домашнее животное, интернет магазин содержащий широкий ассортимент продуктов для братьев меньших и бюро находок, где вы можете разместить объявление о пропавшем или найденном домашнем животном.</p>
-			<p>Купить товар в магазине можно двумя способами - самовывоз или заказать доставку. Чтобы взять доставку, вам необходимо выбрать соответствующий вариант при оформлении заказа. Доставка на товар любого количества стоит 500 тенге. Самовывоз по адресу ул. Гагарина д. 311а</p>
+			<p>Купить товар в магазине можно двумя способами - самовывоз или заказать доставку. Чтобы взять доставку, вам необходимо выбрать соответствующий вариант при оформлении заказа. Доставка на товар любого количества стоит 500 тенге. <br><b>Самовывоз по адресу ул. Гагарина д. 311а</b></p>
 		</div>
 		<div class="footer-working-hours">
 			<h1 class="footer-h1">Время работы</h1>

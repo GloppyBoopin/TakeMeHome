@@ -118,7 +118,7 @@
 					<img src="images/dog.png" alt="Фотография" class="addesk-item-image"> <!-- Если нет фотографий можно поставить филлер -->
 				</div>
 				<div class="addesk-item-info right">
-					<p class="addesk-item-head">Догич, 16 лет, пьяный</p> <!-- Порода, пол, возраст (если есть) -->
+					<p class="addesk-item-head">Золотой ретривер, 12 мес., мальчик</p> <!-- Порода, пол, возраст (если есть) -->
 					<p class="addesk-item-category">Собаки</p> <!-- Категория и подкатегория, если есть (Собаки, лабрадор) -->
 					<p class="addesk-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolor id distinctio voluptates laborum natus tempora ratione. Recusandae sit animi facilis ipsa architecto non praesentium autem provident tempora, ducimus quis.</p> <!-- Описание -->
 					<p class="addesk-item-phone">Тел: +7 (800) 555-35-35</p> <!-- Номер телефона (если есть) -->
@@ -141,8 +141,8 @@
 					<img src="images/fishes-cut.png" alt="Фотография" class="addesk-item-image"> <!-- Если нет фотографий можно поставить филлер -->
 				</div>
 				<div class="addesk-item-info right">
-					<p class="addesk-item-head">Догич, 16 лет, пьяный</p> <!-- Порода, пол, возраст (если есть) -->
-					<p class="addesk-item-category">Собаки</p> <!-- Категория и подкатегория, если есть (Собаки, лабрадор) -->
+					<p class="addesk-item-head">Карп Коя, малёк</p> <!-- Порода, пол, возраст (если есть) -->
+					<p class="addesk-item-category">Рыбы</p> <!-- Категория и подкатегория, если есть (Собаки, лабрадор) -->
 					<p class="addesk-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolor id distinctio voluptates laborum natus tempora ratione. Recusandae sit animi facilis ipsa architecto non praesentium autem provident tempora, ducimus quis.</p> <!-- Описание -->
 					<p class="addesk-item-phone">Тел: +7 (800) 555-35-35</p> <!-- Номер телефона (если есть) -->
 					<div class="addesk-item-bottom">
@@ -164,8 +164,8 @@
 					<img src="images/cat.png" alt="Фотография" class="addesk-item-image"> <!-- Если нет фотографий можно поставить филлер -->
 				</div>
 				<div class="addesk-item-info right">
-					<p class="addesk-item-head">Догич, 16 лет, пьяный</p> <!-- Порода, пол, возраст (если есть) -->
-					<p class="addesk-item-category">Собаки</p> <!-- Категория и подкатегория, если есть (Собаки, лабрадор) -->
+					<p class="addesk-item-head">Русский голубой, 3 мес., мальчик</p> <!-- Порода, пол, возраст (если есть) -->
+					<p class="addesk-item-category">Кошки</p> <!-- Категория и подкатегория, если есть (Собаки, лабрадор) -->
 					<p class="addesk-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolor id distinctio voluptates laborum natus tempora ratione. Recusandae sit animi facilis ipsa architecto non praesentium autem provident tempora, ducimus quis.</p> <!-- Описание -->
 					<p class="addesk-item-phone">Тел: +7 (800) 555-35-35</p> <!-- Номер телефона (если есть) -->
 					<div class="addesk-item-bottom">
@@ -187,8 +187,8 @@
 					<img src="images/hamsters-cut.png" alt="Фотография" class="addesk-item-image"> <!-- Если нет фотографий можно поставить филлер -->
 				</div>
 				<div class="addesk-item-info right">
-					<p class="addesk-item-head">Догич, 16 лет, пьяный</p> <!-- Порода, пол, возраст (если есть) -->
-					<p class="addesk-item-category">Собаки</p> <!-- Категория и подкатегория, если есть (Собаки, лабрадор) -->
+					<p class="addesk-item-head">Джунгарский хомяк, 1 мес., самец</p> <!-- Порода, пол, возраст (если есть) -->
+					<p class="addesk-item-category">Грызуны</p> <!-- Категория и подкатегория, если есть (Собаки, лабрадор) -->
 					<p class="addesk-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolor id distinctio voluptates laborum natus tempora ratione. Recusandae sit animi facilis ipsa architecto non praesentium autem provident tempora, ducimus quis.</p> <!-- Описание -->
 					<p class="addesk-item-phone">Тел: +7 (800) 555-35-35</p> <!-- Номер телефона (если есть) -->
 					<div class="addesk-item-bottom">
@@ -210,7 +210,7 @@
 		<div class="footer-info">
 			<h1 class="footer-h1">О нас</h1>
 			<p><b>TakeMeHome</b> - революция в мире торговых площадок и сайтов о домашних животных. Наш сайт совмещает в себе торговую площадку, где вы можете продать/купить/взять даром домашнее животное, интернет магазин содержащий широкий ассортимент продуктов для братьев меньших и бюро находок, где вы можете разместить объявление о пропавшем или найденном домашнем животном.</p>
-			<p>Купить товар в магазине можно двумя способами - самовывоз или заказать доставку. Чтобы взять доставку, вам необходимо выбрать соответствующий вариант при оформлении заказа. Доставка на товар любого количества стоит 500 тенге. Самовывоз по адресу ул. Гагарина д. 311а</p>
+			<p>Купить товар в магазине можно двумя способами - самовывоз или заказать доставку. Чтобы взять доставку, вам необходимо выбрать соответствующий вариант при оформлении заказа. Доставка на товар любого количества стоит 500 тенге. <br><b>Самовывоз по адресу ул. Гагарина д. 311а</b></p>
 		</div>
 		<div class="footer-working-hours">
 			<h1 class="footer-h1">Время работы</h1>

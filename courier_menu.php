@@ -85,6 +85,8 @@
 							</div>
 							<div class="my-order-orderer-phone">
 								Телефон: +77053134788
+								<br>
+								Оплата: Банковский перевод
 							</div>
 						</div>
 						<h1>Продукты</h1>
@@ -103,10 +105,10 @@
 
 							<div class="my-order-item">
 								<div class="my-order-item-image">
-									<img src="images/dog.png" class="item-image">
+									<img src="images/dog-bed.jpg" class="item-image">
 								</div>
 								<div class="my-order-item-name">
-									Лежанка для собак KEKL
+									Лежанка для собак и кошек Ferplast Dandy
 								</div>
 								<div class="my-order-item-quantity">
 									1
@@ -115,10 +117,10 @@
 
 							<div class="my-order-item">
 								<div class="my-order-item-image">
-									<img src="images/cat.png" class="item-image">
+									<img src="images/perfect-fit.png" class="item-image">
 								</div>
 								<div class="my-order-item-name">
-									Миска для корма Pepe
+									Perfect Fit, 650 гр.
 								</div>
 								<div class="my-order-item-quantity">
 									2
@@ -127,16 +129,17 @@
 
 							<div class="my-order-item">
 								<div class="my-order-item-image">
-									<img src="images/fish-1.png" class="item-image">
+									<img src="images/cat-house.jpg" class="item-image">
 								</div>
 								<div class="my-order-item-name">
-									Дом игровая площадка для котов Detre
+									Дом-когтеточка "Энди" для кошек
 								</div>
 								<div class="my-order-item-quantity">
 									1
 								</div>
 							</div>
 						</div>
+						<b style="font-weight: 900; font-size: 36px;">К оплате: 160 000</b>
 						<h1>Адрес</h1>
 						<div class="my-order-adress">
 							ул. Жарокова дом 151 кв. 322
@@ -233,7 +236,7 @@
 		<div class="footer-info">
 			<h1 class="footer-h1">О нас</h1>
 			<p><b>TakeMeHome</b> - революция в мире торговых площадок и сайтов о домашних животных. Наш сайт совмещает в себе торговую площадку, где вы можете продать/купить/взять даром домашнее животное, интернет магазин содержащий широкий ассортимент продуктов для братьев меньших и бюро находок, где вы можете разместить объявление о пропавшем или найденном домашнем животном.</p>
-			<p>Купить товар в магазине можно двумя способами - самовывоз или заказать доставку. Чтобы взять доставку, вам необходимо выбрать соответствующий вариант при оформлении заказа. Доставка на товар любого количества стоит 500 тенге. Самовывоз по адресу ул. Гагарина д. 311а</p>
+			<p>Купить товар в магазине можно двумя способами - самовывоз или заказать доставку. Чтобы взять доставку, вам необходимо выбрать соответствующий вариант при оформлении заказа. Доставка на товар любого количества стоит 500 тенге. <br><b>Самовывоз по адресу ул. Гагарина д. 311а</b></p>
 		</div>
 		<div class="footer-working-hours">
 			<h1 class="footer-h1">Время работы</h1>

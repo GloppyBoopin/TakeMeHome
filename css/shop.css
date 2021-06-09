@@ -294,17 +294,46 @@ html[data-theme="dark"] .shop-items{
 	background: var(--main-color);
 }
 
-.shop-items-filter {
-	width: 300px;
-	height: 352px;
+.shop-items-filters {
+	width: 270px;
+	padding: 15px;
 	margin-right: 63px;
 	background: #FFFFFF;
 	box-shadow: 2px 2px 6px rgb(0, 0, 0, 0.25);
 	border-radius: 10px;
 }
 
-html[data-theme="dark"] .shop-items-filter {
+html[data-theme="dark"] .shop-items-filters {
 	background: #222;
+}
+
+.shop-items-filter {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-input-text {
+	width: 100px !important;
+	font-size: 16px !important;
+	padding: 7px !important;
+}
+
+.shop-items-filter-checkbox-wrapper {
+	display: flex;
+	align-items: center;
+	margin-bottom: 3px;
+}
+
+.shop-items-filter-checkbox-wrapper input[type="checkbox"] {
+	margin: 0 !important;
+	margin-right: 15px !important;
+}
+
+.form-button {
+	margin: 0 auto !important;
+	margin-top: 10px !important;
+	padding: 7px !important;
+	width: 200px !important;
 }
 
 .shop-items-container {
@@ -404,7 +433,7 @@ html[data-theme="dark"] .shop-item {
 	min-width: 100%;
 	min-height: 200px;
 	max-width: 300px;
-	max-height: 260px;
+	max-height: 230px;
 }
 
 html[data-theme="dark"] .shop-item-image { 
@@ -418,7 +447,8 @@ html[data-theme="dark"] .shop-item-image {
 	margin-bottom: 10px;
 	font-size: 20px;
 	text-align: center;
-	width: 100%;
+	width: 150%;
+	left: -25%;
 	overflow: hidden;
 }
 
@@ -593,6 +623,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .list .shop-item-image {
 	position: unset;
+	margin-top: -5%;
 	max-width: 300px;
 	max-height: 250px;
 	min-width: 300px;

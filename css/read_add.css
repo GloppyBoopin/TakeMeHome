@@ -30,6 +30,10 @@
 	max-width: 800px;
 }
 
+html[data-theme="dark"] .add-images-slider div img {
+	filter: brightness(0.8) contrast(1.1);
+}
+
 .slick-dots li button:before {
 	height: 40px !important;
 	width: 40px !important;

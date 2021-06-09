@@ -95,11 +95,11 @@
 				</a>
 				<div class="shop-item-image-container">
 					<!-- Сюда картинку -->
-					<img src="images/dog.png" class="shop-item-image">
+					<img src="images/kitekat.jpg" class="shop-item-image">
 				</div>
 				<!-- Название -->
 				<div class="shop-item-name-container">
-					<p class="shop-item-name">lorem ipsum</p>
+					<p class="shop-item-name">Kitekat, 350 гр.</p>
 				</div>	
 				<div class="shop-item-quantity-container">
 					<!-- Количество -->
@@ -120,11 +120,11 @@
 				</a>
 				<div class="shop-item-image-container">
 					<!-- Сюда картинку -->
-					<img src="images/dog.png" class="shop-item-image">
+					<img src="images/dog-bed.jpg" class="shop-item-image">
 				</div>
 				<!-- Название -->
 				<div class="shop-item-name-container">
-					<p class="shop-item-name">dolor sit amet</p>
+					<p class="shop-item-name">Лежак для собак и кошек Ferplast Dandy</p>
 				</div>	
 				<div class="shop-item-quantity-container">
 					<!-- Количество -->
@@ -235,7 +235,7 @@
 		<div class="footer-info">
 			<h1 class="footer-h1">О нас</h1>
 			<p><b>TakeMeHome</b> - революция в мире торговых площадок и сайтов о домашних животных. Наш сайт совмещает в себе торговую площадку, где вы можете продать/купить/взять даром домашнее животное, интернет магазин содержащий широкий ассортимент продуктов для братьев меньших и бюро находок, где вы можете разместить объявление о пропавшем или найденном домашнем животном.</p>
-			<p>Купить товар в магазине можно двумя способами - самовывоз или заказать доставку. Чтобы взять доставку, вам необходимо выбрать соответствующий вариант при оформлении заказа. Доставка на товар любого количества стоит 500 тенге. Самовывоз по адресу ул. Гагарина д. 311а</p>
+			<p>Купить товар в магазине можно двумя способами - самовывоз или заказать доставку. Чтобы взять доставку, вам необходимо выбрать соответствующий вариант при оформлении заказа. Доставка на товар любого количества стоит 500 тенге. <br><b>Самовывоз по адресу ул. Гагарина д. 311а</b></p>
 		</div>
 		<div class="footer-working-hours">
 			<h1 class="footer-h1">Время работы</h1>

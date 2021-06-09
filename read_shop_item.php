@@ -81,14 +81,14 @@
 			<div class="add-item">
 				<div class="add-images-slider">
 					<!-- Добавляешь столько div'ov сколько картинок -->
-					<div><img src="images/cat.png"></div>
-					<div><img src="images/dog.png"></div>
-					<div><img src="images/hamsters-cut.png"></div>
-					<div><img src="images/parrots-cut.png"></div>
+					<div><img src="images/cat-house.jpg"></div>
+					<div><img src="images/cat-house-2.jpg"></div>
+					<div><img src="images/cat-house-3.jpg"></div>
+					<div><img src="images/cat-house-4.jpg"></div>
 				</div>
 				<div class="add-item-date">Добавлено 26.11.2020 14:23</div>
-				<div class="add-item-name">Резиновая игрушка Bruh для собак</div>
-				<div class="add-item-category">Игрушки</div>
+				<div class="add-item-name">Домик-когтеточка "Энди" для кошек</div>
+				<div class="add-item-category">Дома для кошек, Когтеточки</div>
 				<div class="add-item-description">
 					<h1>Описание</h1>
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima assumenda officia, numquam vel magnam neque voluptate nobis dignissimos non molestiae quos, dolor debitis mollitia repellendus odio unde veritatis maiores ex!
@@ -151,6 +151,10 @@
 					<p class="add-author-length">Длина - 80 см</p>
 					<p class="add-author-weight">Вес - 1.5 кг</p>
 				</div>
+				<div class="shop-item-stock">
+					Наличие
+					<p>7 штук</p>
+				</div>
 			</div>
 			<div class="read-add-right-rating">
 				Рейтинг
@@ -171,7 +175,7 @@
 		<div class="footer-info">
 			<h1 class="footer-h1">О нас</h1>
 			<p><b>TakeMeHome</b> - революция в мире торговых площадок и сайтов о домашних животных. Наш сайт совмещает в себе торговую площадку, где вы можете продать/купить/взять даром домашнее животное, интернет магазин содержащий широкий ассортимент продуктов для братьев меньших и бюро находок, где вы можете разместить объявление о пропавшем или найденном домашнем животном.</p>
-			<p>Купить товар в магазине можно двумя способами - самовывоз или заказать доставку. Чтобы взять доставку, вам необходимо выбрать соответствующий вариант при оформлении заказа. Доставка на товар любого количества стоит 500 тенге. Самовывоз по адресу ул. Гагарина д. 311а</p>
+			<p>Купить товар в магазине можно двумя способами - самовывоз или заказать доставку. Чтобы взять доставку, вам необходимо выбрать соответствующий вариант при оформлении заказа. Доставка на товар любого количества стоит 500 тенге. <br><b>Самовывоз по адресу ул. Гагарина д. 311а</b></p>
 		</div>
 		<div class="footer-working-hours">
 			<h1 class="footer-h1">Время работы</h1>

@@ -65,6 +65,7 @@ html[data-theme="dark"] .active {
 
 .addesk-item {
 	width: 700px !important;
+	height: 210px !important;
 }
 
 .addesk-item-head {
